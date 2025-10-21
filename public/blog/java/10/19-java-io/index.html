@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head><script src="/dangcode-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dangcode-blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Java Input/Output (I/O) | Blog DangnoHat</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Java I/O giúp đọc/ghi dữ liệu từ file hoặc console.">
+    <meta name="generator" content="Hugo 0.151.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Đăng Nguyễn Hải">
+    
+
+    
+<link rel="stylesheet" href="/dangcode-blog/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/dangcode-blog/css/custom.css">
+  
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/">
+  <meta property="og:site_name" content="Blog DangnoHat">
+  <meta property="og:title" content="Java Input/Output (I/O)">
+  <meta property="og:description" content="Java I/O giúp đọc/ghi dữ liệu từ file hoặc console.">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-10-20T09:00:00+07:00">
+    <meta property="article:modified_time" content="2025-10-20T09:00:00+07:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="I/O">
+    <meta property="article:tag" content="File">
+    <meta property="article:tag" content="Scanner">
+    <meta property="article:tag" content="Feynman">
+
+  <meta itemprop="name" content="Java Input/Output (I/O)">
+  <meta itemprop="description" content="Java I/O giúp đọc/ghi dữ liệu từ file hoặc console.">
+  <meta itemprop="datePublished" content="2025-10-20T09:00:00+07:00">
+  <meta itemprop="dateModified" content="2025-10-20T09:00:00+07:00">
+  <meta itemprop="wordCount" content="95">
+  <meta itemprop="keywords" content="Java,I/O,File,Scanner,Feynman">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Java Input/Output (I/O)">
+  <meta name="twitter:description" content="Java I/O giúp đọc/ghi dữ liệu từ file hoặc console.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/dangcode-blog/images/java_cover_19.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/dangcode-blog/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Blog DangnoHat
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/profile/" title="Giới thiệu page">
+              Giới thiệu
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Java Input/Output (I/O)</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Java
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Java Input/Output (I/O)</h1>
+      
+      <p class="tracked"><strong>Đăng Nguyễn Hải</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-20T09:00:00+07:00">October 20, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Java I/O giúp <strong>đọc/ghi dữ liệu từ file hoặc console</strong>.</p>
+<p><img src="/images/java_io.png" alt="Java IO"></p>
+<h2 id="1-nhập-dữ-liệu-từ-console">1. Nhập dữ liệu từ console</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.Scanner;
+</span></span><span style="display:flex;"><span>Scanner sc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Nhập tên: &#34;</span>);
+</span></span><span style="display:flex;"><span>String name <span style="color:#f92672">=</span> sc.<span style="color:#a6e22e">nextLine</span>();
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Chào &#34;</span> <span style="color:#f92672">+</span> name);
+</span></span></code></pre></div><h2 id="2-đọcghi-file">2. Đọc/ghi file</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.*;
+</span></span><span style="display:flex;"><span>BufferedReader br <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> BufferedReader(<span style="color:#66d9ef">new</span> FileReader(<span style="color:#e6db74">&#34;input.txt&#34;</span>));
+</span></span><span style="display:flex;"><span>String line;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span>((line <span style="color:#f92672">=</span> br.<span style="color:#a6e22e">readLine</span>()) <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>){
+</span></span><span style="display:flex;"><span>  System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(line);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>br.<span style="color:#a6e22e">close</span>();
+</span></span></code></pre></div><h2 id="3-trải-nghiệm-học">3. Trải nghiệm học</h2>
+<p>Thực hành nhiều ví dụ console và file → hiểu rõ Input/Output</p>
+<p>Feynman tip: “Input = nhận dữ liệu, Output = trả dữ liệu”</p>
+<h2 id="4-kết-luận">4. Kết luận</h2>
+<p>I/O là khả năng giao tiếp của chương trình</p><ul class="pa0">
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/java/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Java</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/i/o/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">I/O</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/file/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">File</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/scanner/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Scanner</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/feynman/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Feynman</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/04/13-java-ifelse/">Câu lệnh điều kiện if/else trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/09/18-java-exception/">Exception Handling trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/07/16-java-functions/">Hàm, Overloading và Parameter Passing trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/08/17-java-oop/">Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/06/15-java-array-collection/">Mảng và Collection trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/03/12-java-operators/">Toán tử và biểu thức trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/05/14-java-loops/">Vòng lặp trong Java: for, while, do-while</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/01/10-java-intro/">Giới thiệu về Java – Lịch sử, đặc điểm và ứng dụng</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/02/11-java-basics/">Java cơ bản: Biến, kiểu dữ liệu và hằng số</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/dangcode-blog/" >
+    &copy;  Blog DangnoHat 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

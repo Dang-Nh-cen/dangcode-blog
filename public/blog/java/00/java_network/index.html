@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head><script src="/dangcode-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dangcode-blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Mối liên hệ giữa Java và Mạng máy tính – Từ lịch sử Internet đến lập trình mạng hiện đại | Blog DangnoHat</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Java và mạng máy tính là hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. 
+
+
+1. Lịch sử mạng máy tính – Từ ARPANET đến Internet
+
+1969: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học.
+1983: giao thức TCP/IP trở thành tiêu chuẩn, Internet hình thành.
+1990: Tim Berners-Lee phát minh World Wide Web (WWW), mở ra kỷ nguyên web.
+
+Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.
+Và Java xuất hiện đúng thời điểm vàng đó.">
+    <meta name="generator" content="Hugo 0.151.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Đăng Nguyễn Hải">
+    
+
+    
+<link rel="stylesheet" href="/dangcode-blog/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/dangcode-blog/css/custom.css">
+  
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/dangcode-blog/blog/java/00/java_network/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/dangcode-blog/blog/java/00/java_network/">
+  <meta property="og:site_name" content="Blog DangnoHat">
+  <meta property="og:title" content="Mối liên hệ giữa Java và Mạng máy tính – Từ lịch sử Internet đến lập trình mạng hiện đại">
+  <meta property="og:description" content="Java và mạng máy tính là hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. 1. Lịch sử mạng máy tính – Từ ARPANET đến Internet 1969: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học. 1983: giao thức TCP/IP trở thành tiêu chuẩn, Internet hình thành. 1990: Tim Berners-Lee phát minh World Wide Web (WWW), mở ra kỷ nguyên web. Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.
+Và Java xuất hiện đúng thời điểm vàng đó.">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-10-21T09:00:00+07:00">
+    <meta property="article:modified_time" content="2025-10-21T09:00:00+07:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Network">
+    <meta property="article:tag" content="Internet">
+    <meta property="article:tag" content="Lập Trình Mạng">
+
+  <meta itemprop="name" content="Mối liên hệ giữa Java và Mạng máy tính – Từ lịch sử Internet đến lập trình mạng hiện đại">
+  <meta itemprop="description" content="Java và mạng máy tính là hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. 1. Lịch sử mạng máy tính – Từ ARPANET đến Internet 1969: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học. 1983: giao thức TCP/IP trở thành tiêu chuẩn, Internet hình thành. 1990: Tim Berners-Lee phát minh World Wide Web (WWW), mở ra kỷ nguyên web. Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.
+Và Java xuất hiện đúng thời điểm vàng đó.">
+  <meta itemprop="datePublished" content="2025-10-21T09:00:00+07:00">
+  <meta itemprop="dateModified" content="2025-10-21T09:00:00+07:00">
+  <meta itemprop="wordCount" content="697">
+  <meta itemprop="keywords" content="Java,Network,Internet,Lập Trình Mạng">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mối liên hệ giữa Java và Mạng máy tính – Từ lịch sử Internet đến lập trình mạng hiện đại">
+  <meta name="twitter:description" content="Java và mạng máy tính là hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. 1. Lịch sử mạng máy tính – Từ ARPANET đến Internet 1969: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học. 1983: giao thức TCP/IP trở thành tiêu chuẩn, Internet hình thành. 1990: Tim Berners-Lee phát minh World Wide Web (WWW), mở ra kỷ nguyên web. Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.
+Và Java xuất hiện đúng thời điểm vàng đó.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/dangcode-blog/images/java_1.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/dangcode-blog/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Blog DangnoHat
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/profile/" title="Giới thiệu page">
+              Giới thiệu
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Mối liên hệ giữa Java và Mạng máy tính – Từ lịch sử Internet đến lập trình mạng hiện đại</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Java
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Mối liên hệ giữa Java và Mạng máy tính – Từ lịch sử Internet đến lập trình mạng hiện đại</h1>
+      
+      <p class="tracked"><strong>Đăng Nguyễn Hải</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-21T09:00:00+07:00">October 21, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Java và mạng máy tính là <strong>hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại</strong>. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. <!--More--></p>
+<p><img src="/images/java_0.png" alt="Java and Network"></p>
+<hr>
+<h2 id="1-lịch-sử-mạng-máy-tính--từ-arpanet-đến-internet">1. Lịch sử mạng máy tính – Từ ARPANET đến Internet</h2>
+<ul>
+<li><strong>1969</strong>: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học.</li>
+<li><strong>1983</strong>: giao thức <strong>TCP/IP</strong> trở thành tiêu chuẩn, Internet hình thành.</li>
+<li><strong>1990</strong>: Tim Berners-Lee phát minh <strong>World Wide Web (WWW)</strong>, mở ra kỷ nguyên web.</li>
+</ul>
+<p>Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.<br>
+Và Java xuất hiện đúng thời điểm vàng đó.</p>
+<hr>
+<h2 id="2-java-ra-đời-giữa-làn-sóng-internet">2. Java ra đời giữa làn sóng Internet</h2>
+<ul>
+<li><strong>1995</strong>: Java được Sun Microsystems giới thiệu, với khẩu hiệu <strong>“Write Once, Run Anywhere”</strong>.</li>
+<li>Trong khi C và C++ mạnh về xử lý hệ thống, Java được sinh ra để <strong>phục vụ Internet và các ứng dụng kết nối mạng</strong>.</li>
+<li>Java tích hợp sẵn <strong>Socket API, RMI, Servlet, JSP</strong>, giúp lập trình viên dễ dàng viết ứng dụng client-server, web, hoặc hệ thống phân tán.</li>
+</ul>
+<blockquote>
+<p>💡 <em>Feynman tip:</em> Hãy tưởng tượng mạng máy tính là “đường giao thông”, còn Java là “ngôn ngữ giao tiếp” giữa các phương tiện trên đường đó.</p>
+</blockquote>
+<hr>
+<h2 id="3-java-và-lập-trình-mạng">3. Java và lập trình mạng</h2>
+<h3 id="-lập-trình-socket-trong-java">🔹 Lập trình Socket trong Java</h3>
+<p>Java cung cấp thư viện <code>java.net</code> để tạo kết nối TCP hoặc UDP.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Ví dụ: Java Socket Server</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.net.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SimpleServer</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) <span style="color:#66d9ef">throws</span> IOException {
+</span></span><span style="display:flex;"><span>        ServerSocket server <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ServerSocket(5000);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Server đang chờ kết nối...&#34;</span>);
+</span></span><span style="display:flex;"><span>        Socket socket <span style="color:#f92672">=</span> server.<span style="color:#a6e22e">accept</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        BufferedReader in <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> BufferedReader(<span style="color:#66d9ef">new</span> InputStreamReader(socket.<span style="color:#a6e22e">getInputStream</span>()));
+</span></span><span style="display:flex;"><span>        PrintWriter out <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PrintWriter(socket.<span style="color:#a6e22e">getOutputStream</span>(), <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        String message <span style="color:#f92672">=</span> in.<span style="color:#a6e22e">readLine</span>();
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Nhận: &#34;</span> <span style="color:#f92672">+</span> message);
+</span></span><span style="display:flex;"><span>        out.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Chào client! Tôi là server Java.&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        socket.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>        server.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>Phía client có thể kết nối tới server chỉ bằng vài dòng mã:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Socket socket <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Socket(<span style="color:#e6db74">&#34;localhost&#34;</span>, 5000);
+</span></span></code></pre></div><ul>
+<li>🔹 Java và Web</li>
+</ul>
+<p>Java là nền tảng của các ứng dụng web động đầu tiên:</p>
+<p>Servlets &amp; JSP: chạy trên máy chủ, sinh nội dung HTML động.</p>
+<p>Spring Framework: tạo web app nhanh, an toàn, và mở rộng.</p>
+<p>Jakarta EE: chuẩn công nghiệp cho hệ thống doanh nghiệp kết nối mạng.</p>
+<h2 id="4-java-và-mạng-trong-thời-đại-iot--cloud">4. Java và Mạng trong thời đại IoT &amp; Cloud</h2>
+<p>Ngày nay, Java không chỉ nằm trong web – nó còn len lỏi vào:</p>
+<p>Hệ thống IoT: Thiết bị thông minh, cảm biến giao tiếp qua MQTT, HTTP.</p>
+<p>Cloud &amp; Microservices: Java chạy trên AWS, Azure, GCP.</p>
+<p>Hệ thống phân tán: Hadoop, Kafka, Spark – tất cả đều có lõi Java.</p>
+<p>Java vẫn duy trì vị thế nhờ khả năng xử lý đồng thời, ổn định và an toàn.</p>
+<p>🧠 Feynman Tip: Hãy thử giải thích lại nguyên lý socket bằng lời của bạn – “Server là người lắng nghe, client là người gõ cửa” – bạn sẽ hiểu sâu hơn cách hoạt động của mạng.</p>
+<h2 id="5-kết-nối-giữa-java-và-network--một-mối-quan-hệ-bền-chặt">5. Kết nối giữa Java và Network – Một mối quan hệ bền chặt</h2>
+<p>Mạng máy tính	Java
+Kết nối thiết bị	Kết nối chương trình
+TCP/IP, HTTP, DNS	Socket, RMI, Servlet
+Router, Switch	JVM, Class Loader
+Giao thức truyền dữ liệu	API &amp; Framework truyền thông</p>
+<p>Cả hai cùng hướng tới mục tiêu giao tiếp, chia sẻ dữ liệu và tạo nên thế giới kết nối.</p>
+<h2 id="6-kết-luận--trải-nghiệm-học-tập">6. Kết luận &amp; Trải nghiệm học tập</h2>
+<p>Học Java song song với kiến thức mạng giúp mình:</p>
+<p>Hiểu rõ cách dữ liệu di chuyển qua Internet.</p>
+<p>Biết cách xây dựng ứng dụng client-server thực tế.</p>
+<p>Cảm nhận được Java như “ngôn ngữ tự nhiên” của thế giới kết nối.</p>
+<p>“Java không chỉ là ngôn ngữ lập trình, mà là ngôn ngữ của Internet.”</p>
+<h2 id="-gợi-ý-học-tập">📚 Gợi ý học tập</h2>
+<p>Nếu bạn quan tâm:</p>
+<p>Tìm hiểu khóa Java Programming trên NetAcad
+.</p>
+<p>Học thêm về Computer Networking Essentials để hiểu nền tảng Internet.</p>
+<p>Thực hành: Viết ứng dụng chat hoặc web đơn giản bằng Java Socket.</p>
+<p>-Bài viết được chia sẻ bởi Đăng Nguyễn Hải – người đam mê lập trình mạng và ngôn ngữ Java.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/java/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Java</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/network/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Network</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/internet/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Internet</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/l%E1%BA%ADp-tr%C3%ACnh-m%E1%BA%A1ng/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Lập Trình Mạng</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/04/13-java-ifelse/">Câu lệnh điều kiện if/else trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/09/18-java-exception/">Exception Handling trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/01/10-java-intro/">Giới thiệu về Java – Lịch sử, đặc điểm và ứng dụng</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/07/16-java-functions/">Hàm, Overloading và Parameter Passing trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/10/19-java-io/">Java Input/Output (I/O)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/02/11-java-basics/">Java cơ bản: Biến, kiểu dữ liệu và hằng số</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/08/17-java-oop/">Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/06/15-java-array-collection/">Mảng và Collection trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/03/12-java-operators/">Toán tử và biểu thức trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/05/14-java-loops/">Vòng lặp trong Java: for, while, do-while</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/dangcode-blog/" >
+    &copy;  Blog DangnoHat 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

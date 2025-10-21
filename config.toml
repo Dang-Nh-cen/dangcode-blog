@@ -1,0 +1,35 @@
+baseURL = "https://dang-nh-cen.github.io/dangcode-blog/"
+languageCode = "vi"
+title = "Blog DangnoHat"
+theme = "ananke"
+buildDrafts = true
+[pagination]
+  pagerSize = 5
+[params]
+  author = "Đăng Nguyễn Hải"
+  description = "Blog chia sẻ kiến thức lập trình mạng, Java và JavaScript."
+  featured_image = "/images/cover.jpg"
+  custom_css = ["css/custom.css"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Giới thiệu"
+    url = "/profile/"
+    weight = 3
+
