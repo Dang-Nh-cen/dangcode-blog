@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head><script src="/dangcode-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dangcode-blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Làm việc với Object và Array trong JavaScript | Blog DangnoHat</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="
+Trong JavaScript, Object và Array là 2 kiểu dữ liệu “linh hồn” của ngôn ngữ.
+1. Object
+let student = {
+  name: &#34;Đăng&#34;,
+  age: 21,
+  study: function() {
+    console.log(`${this.name} đang học JavaScript`);
+  }
+};
+student.study();
+2. Array
+let scores = [8, 9, 10];
+scores.push(7);
+console.log(scores);
+3. Lặp qua mảng
+scores.forEach(s =&gt; console.log(`Điểm: ${s}`));
+💡 Feynman Tip: Object là “tủ hồ sơ” (có nhãn – giá trị),
+còn Array là “danh sách số thứ tự”.">
+    <meta name="generator" content="Hugo 0.151.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Đăng Nguyễn Hải">
+    
+
+    
+<link rel="stylesheet" href="/dangcode-blog/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/dangcode-blog/css/custom.css">
+  
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/dangcode-blog/blog/javascript/06/js_object_array/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/dangcode-blog/blog/javascript/06/js_object_array/">
+  <meta property="og:site_name" content="Blog DangnoHat">
+  <meta property="og:title" content="Làm việc với Object và Array trong JavaScript">
+  <meta property="og:description" content="Trong JavaScript, Object và Array là 2 kiểu dữ liệu “linh hồn” của ngôn ngữ.
+1. Object let student = { name: &#34;Đăng&#34;, age: 21, study: function() { console.log(`${this.name} đang học JavaScript`); } }; student.study(); 2. Array let scores = [8, 9, 10]; scores.push(7); console.log(scores); 3. Lặp qua mảng scores.forEach(s =&gt; console.log(`Điểm: ${s}`)); 💡 Feynman Tip: Object là “tủ hồ sơ” (có nhãn – giá trị), còn Array là “danh sách số thứ tự”.">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-10-20T09:00:00+07:00">
+    <meta property="article:modified_time" content="2025-10-20T09:00:00+07:00">
+    <meta property="article:tag" content="JavaScript">
+    <meta property="article:tag" content="Object">
+    <meta property="article:tag" content="Array">
+
+  <meta itemprop="name" content="Làm việc với Object và Array trong JavaScript">
+  <meta itemprop="description" content="Trong JavaScript, Object và Array là 2 kiểu dữ liệu “linh hồn” của ngôn ngữ.
+1. Object let student = { name: &#34;Đăng&#34;, age: 21, study: function() { console.log(`${this.name} đang học JavaScript`); } }; student.study(); 2. Array let scores = [8, 9, 10]; scores.push(7); console.log(scores); 3. Lặp qua mảng scores.forEach(s =&gt; console.log(`Điểm: ${s}`)); 💡 Feynman Tip: Object là “tủ hồ sơ” (có nhãn – giá trị), còn Array là “danh sách số thứ tự”.">
+  <meta itemprop="datePublished" content="2025-10-20T09:00:00+07:00">
+  <meta itemprop="dateModified" content="2025-10-20T09:00:00+07:00">
+  <meta itemprop="wordCount" content="74">
+  <meta itemprop="keywords" content="JavaScript,Object,Array">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Làm việc với Object và Array trong JavaScript">
+  <meta name="twitter:description" content="Trong JavaScript, Object và Array là 2 kiểu dữ liệu “linh hồn” của ngôn ngữ.
+1. Object let student = { name: &#34;Đăng&#34;, age: 21, study: function() { console.log(`${this.name} đang học JavaScript`); } }; student.study(); 2. Array let scores = [8, 9, 10]; scores.push(7); console.log(scores); 3. Lặp qua mảng scores.forEach(s =&gt; console.log(`Điểm: ${s}`)); 💡 Feynman Tip: Object là “tủ hồ sơ” (có nhãn – giá trị), còn Array là “danh sách số thứ tự”.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/dangcode-blog/images/js_object_array_cover.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/dangcode-blog/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Blog DangnoHat
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/dangcode-blog/profile/" title="Giới thiệu page">
+              Giới thiệu
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Làm việc với Object và Array trong JavaScript</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        JavaScript
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Làm việc với Object và Array trong JavaScript</h1>
+      
+      <p class="tracked"><strong>Đăng Nguyễn Hải</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-20T09:00:00+07:00">October 20, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><img src="/images/js_objects_arrays.png" alt="Objects and Arrays"></p>
+<p>Trong JavaScript, <strong>Object</strong> và <strong>Array</strong> là 2 kiểu dữ liệu “linh hồn” của ngôn ngữ.<!--More--></p>
+<h2 id="1-object">1. Object</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">student</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Đăng&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">age</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">21</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">study</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`</span><span style="color:#e6db74">${</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> đang học JavaScript`</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">student</span>.<span style="color:#a6e22e">study</span>();
+</span></span></code></pre></div><h2 id="2-array">2. Array</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">scores</span> <span style="color:#f92672">=</span> [<span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">10</span>];
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">scores</span>.<span style="color:#a6e22e">push</span>(<span style="color:#ae81ff">7</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">scores</span>);
+</span></span></code></pre></div><h2 id="3-lặp-qua-mảng">3. Lặp qua mảng</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">scores</span>.<span style="color:#a6e22e">forEach</span>(<span style="color:#a6e22e">s</span> =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Điểm: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">s</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>));
+</span></span></code></pre></div><p>💡 Feynman Tip: Object là “tủ hồ sơ” (có nhãn – giá trị),
+còn Array là “danh sách số thứ tự”.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/javascript/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">JavaScript</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/object/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Object</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/dangcode-blog/tags/array/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Array</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/javascript/02/javascript-bien-va-kieu-du-lieu/">Biến và kiểu dữ liệu trong JavaScript</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/javascript/05/js_loops_cover/">Câu điều kiện và vòng lặp trong JavaScript</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/javascript/03/js_functions/">Hàm và phạm vi (Scope) trong JavaScript</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/javascript/01/01-javascript-gioi-thieu/">JavaScript – Ngôn ngữ của Web hiện đại</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/java/06/15-java-array-collection/">Mảng và Collection trong Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dangcode-blog/blog/javascript/04/js_operators_cover/">Toán tử và biểu thức trong JavaScript</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/dangcode-blog/" >
+    &copy;  Blog DangnoHat 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
