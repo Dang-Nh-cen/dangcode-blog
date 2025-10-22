@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lịch Sử Java on Blog DangnoHat</title>
-    <link>http://localhost:1313/dangcode-blog/tags/l%E1%BB%8Bch-s%E1%BB%AD-java/</link>
+    <link>https://dang-nh-cen.github.io/dangcode-blog/tags/l%E1%BB%8Bch-s%E1%BB%AD-java/</link>
     <description>Recent content in Lịch Sử Java on Blog DangnoHat</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Mon, 20 Oct 2025 09:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/dangcode-blog/tags/l%E1%BB%8Bch-s%E1%BB%AD-java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dang-nh-cen.github.io/dangcode-blog/tags/l%E1%BB%8Bch-s%E1%BB%AD-java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Giới thiệu về Java – Lịch sử, đặc điểm và ứng dụng</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/01/10-java-intro/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/01/10-java-intro/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/01/10-java-intro/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/01/10-java-intro/</guid>
       <description>&lt;p&gt;Java là một trong những &lt;strong&gt;ngôn ngữ lập trình phổ biến và mạnh mẽ nhất&lt;/strong&gt; trên thế giới. Trong bài viết này, mình sẽ giới thiệu về &lt;strong&gt;lịch sử ra đời, đặc điểm nổi bật và ứng dụng của Java&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

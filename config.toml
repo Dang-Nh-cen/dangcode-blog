@@ -8,13 +8,17 @@ buildDrafts = true
 [params]
   author = "Đăng Nguyễn Hải"
   description = "Blog chia sẻ kiến thức lập trình mạng, Java và JavaScript."
-  featured_image = "/images/cover.jpg"
+  featured_image = "images/cover.jpg"
   custom_css = ["css/custom.css"]
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+relativeURLs = true
+canonifyURLs = true
 
 
 [menu]

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IfElse on Blog DangnoHat</title>
-    <link>http://localhost:1313/dangcode-blog/tags/ifelse/</link>
+    <link>https://dang-nh-cen.github.io/dangcode-blog/tags/ifelse/</link>
     <description>Recent content in IfElse on Blog DangnoHat</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Mon, 20 Oct 2025 09:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/dangcode-blog/tags/ifelse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dang-nh-cen.github.io/dangcode-blog/tags/ifelse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Câu lệnh điều kiện if/else trong Java</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/04/13-java-ifelse/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/04/13-java-ifelse/</guid>
       <description>&lt;p&gt;Điều kiện giúp Java &lt;strong&gt;ra quyết định&lt;/strong&gt;. Mình học bằng Feynman: “Điều kiện = ngã rẽ đường”.&lt;/p&gt;</description>
     </item>
   </channel>

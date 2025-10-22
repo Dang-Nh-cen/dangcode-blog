@@ -11,7 +11,8 @@ weight: 1
 Java và mạng máy tính là **hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại**. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. <!--More-->
 
 
-![Java and Network](/images/java_0.png)
+![Java and Network]({{ "images/java_0.png" | relURL }})
+
 
 --- 
 
