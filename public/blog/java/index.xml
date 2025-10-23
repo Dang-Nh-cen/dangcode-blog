@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Blog DangnoHat</title>
-    <link>http://localhost:1313/dangcode-blog/blog/java/</link>
+    <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/</link>
     <description>Recent content in Java on Blog DangnoHat</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Wed, 22 Oct 2025 09:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/dangcode-blog/blog/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dang-nh-cen.github.io/dangcode-blog/blog/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mối liên hệ giữa Java và Mạng máy tính – Từ lịch sử Internet đến lập trình mạng hiện đại</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/00/java_network/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/00/java_network/</link>
       <pubDate>Tue, 21 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/00/java_network/</guid>
-      <description>&lt;p&gt;Java và mạng máy tính là &lt;strong&gt;hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại&lt;/strong&gt;. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. &lt;!--More--&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dangcode-blog/images/java_0.png&#34; alt=&#34;Java and Network&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-lịch-sử-mạng-máy-tính--từ-arpanet-đến-internet&#34;&gt;1. Lịch sử mạng máy tính – Từ ARPANET đến Internet&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1969&lt;/strong&gt;: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1983&lt;/strong&gt;: giao thức &lt;strong&gt;TCP/IP&lt;/strong&gt; trở thành tiêu chuẩn, Internet hình thành.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1990&lt;/strong&gt;: Tim Berners-Lee phát minh &lt;strong&gt;World Wide Web (WWW)&lt;/strong&gt;, mở ra kỷ nguyên web.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.&lt;br&gt;&#xA;Và Java xuất hiện đúng thời điểm vàng đó.&lt;/p&gt;</description>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/00/java_network/</guid>
+      <description>&lt;p&gt;Java và mạng máy tính là &lt;strong&gt;hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại&lt;/strong&gt;. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. &lt;!--More--&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://dang-nh-cen.github.io/dangcode-blog/images/java_0.png&#34; alt=&#34;Java and Network&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-lịch-sử-mạng-máy-tính--từ-arpanet-đến-internet&#34;&gt;1. Lịch sử mạng máy tính – Từ ARPANET đến Internet&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1969&lt;/strong&gt;: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1983&lt;/strong&gt;: giao thức &lt;strong&gt;TCP/IP&lt;/strong&gt; trở thành tiêu chuẩn, Internet hình thành.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1990&lt;/strong&gt;: Tim Berners-Lee phát minh &lt;strong&gt;World Wide Web (WWW)&lt;/strong&gt;, mở ra kỷ nguyên web.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.&lt;br&gt;&#xA;Và Java xuất hiện đúng thời điểm vàng đó.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Giới thiệu về Java – Lịch sử, đặc điểm và ứng dụng</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/01/10-java-intro/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/01/10-java-intro/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/01/10-java-intro/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/01/10-java-intro/</guid>
       <description>&lt;p&gt;Java là một trong những &lt;strong&gt;ngôn ngữ lập trình phổ biến và mạnh mẽ nhất&lt;/strong&gt; trên thế giới. Trong bài viết này, mình sẽ giới thiệu về &lt;strong&gt;lịch sử ra đời, đặc điểm nổi bật và ứng dụng của Java&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java cơ bản: Biến, kiểu dữ liệu và hằng số</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/02/11-java-basics/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/02/11-java-basics/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/02/11-java-basics/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/02/11-java-basics/</guid>
       <description>&lt;p&gt;Java là ngôn ngữ &lt;strong&gt;có kiểu dữ liệu tĩnh&lt;/strong&gt;. Mình học bằng cách giải thích theo Feynman từng loại biến.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Toán tử và biểu thức trong Java</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/03/12-java-operators/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/03/12-java-operators/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/03/12-java-operators/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/03/12-java-operators/</guid>
       <description>&lt;p&gt;Toán tử là &lt;strong&gt;công cụ xử lý dữ liệu&lt;/strong&gt;. Mình học bằng cách giải thích Feynman: “Toán tử = công cụ biến đổi dữ liệu”.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Câu lệnh điều kiện if/else trong Java</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/04/13-java-ifelse/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/04/13-java-ifelse/</guid>
       <description>&lt;p&gt;Điều kiện giúp Java &lt;strong&gt;ra quyết định&lt;/strong&gt;. Mình học bằng Feynman: “Điều kiện = ngã rẽ đường”.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vòng lặp trong Java: for, while, do-while</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/05/14-java-loops/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/05/14-java-loops/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/05/14-java-loops/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/05/14-java-loops/</guid>
       <description>&lt;p&gt;Vòng lặp giúp &lt;strong&gt;làm việc lặp đi lặp lại&lt;/strong&gt; mà không viết lại code. Mình học bằng Feynman: “Vòng lặp = robot làm nhiệm vụ nhiều lần”.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mảng và Collection trong Java</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/06/15-java-array-collection/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/06/15-java-array-collection/</guid>
       <description>&lt;p&gt;Mảng và Collection giúp &lt;strong&gt;lưu trữ nhiều giá trị cùng lúc&lt;/strong&gt;. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hàm, Overloading và Parameter Passing trong Java</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/07/16-java-functions/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/07/16-java-functions/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/07/16-java-functions/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/07/16-java-functions/</guid>
       <description>&lt;p&gt;Hàm giúp &lt;strong&gt;tổ chức và tái sử dụng code&lt;/strong&gt;. Overloading và Parameter Passing làm code linh hoạt hơn.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/08/17-java-oop/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/08/17-java-oop/</guid>
       <description>&lt;p&gt;Java là ngôn ngữ &lt;strong&gt;hướng đối tượng (OOP)&lt;/strong&gt;. Class, Inheritance, Polymorphism là nền tảng.&lt;br&gt;&#xA;Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exception Handling trong Java</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/09/18-java-exception/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/09/18-java-exception/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/09/18-java-exception/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/09/18-java-exception/</guid>
       <description>&lt;p&gt;Exception giúp &lt;strong&gt;bắt lỗi và duy trì chương trình chạy ổn định&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java Input/Output (I/O)</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/10/19-java-io/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/10/19-java-io/</guid>
       <description>&lt;p&gt;Java I/O giúp &lt;strong&gt;đọc/ghi dữ liệu từ file hoặc console&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tổng kết lý thuyết và cảm nhận cá nhân khi học Java</title>
-      <link>http://localhost:1313/dangcode-blog/blog/java/java_summary/</link>
+      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/java_summary/</link>
       <pubDate>Wed, 22 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/dangcode-blog/blog/java/java_summary/</guid>
+      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/java_summary/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://cdn.pixabay.com/photo/2017/05/10/16/06/java-2306154_1280.png&#34; alt=&#34;Java Language&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;-tổng-kết-lý-thuyết-về-java&#34;&gt;🧠 Tổng kết lý thuyết về Java&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-java&#34;&gt;1. Giới thiệu về Java&lt;/h3&gt;&#xA;&lt;p&gt;Java là &lt;strong&gt;ngôn ngữ lập trình hướng đối tượng, đa nền tảng&lt;/strong&gt;, được phát triển bởi Sun Microsystems (nay thuộc Oracle).&lt;br&gt;&#xA;Với khẩu hiệu &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt;, Java có thể chạy trên nhiều hệ điều hành nhờ &lt;strong&gt;JVM (Java Virtual Machine)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Đặc điểm nổi bật:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Đa nền tảng (Cross-platform)&lt;/li&gt;&#xA;&lt;li&gt;Hướng đối tượng (OOP)&lt;/li&gt;&#xA;&lt;li&gt;Bảo mật, ổn định cao&lt;/li&gt;&#xA;&lt;li&gt;Thư viện phong phú (Java API)&lt;/li&gt;&#xA;&lt;li&gt;Quản lý bộ nhớ tự động (Garbage Collector)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;2-cấu-trúc-cơ-bản-của-chương-trình-java&#34;&gt;2. Cấu trúc cơ bản của chương trình Java&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello Java!&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;---&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;div style&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;🎯&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;strong&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ&lt;span style=&#34;color:#f92672&#34;&gt;!&amp;lt;/&lt;/span&gt;strong&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;🚀&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;br&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;em&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;—&lt;/span&gt; Đăng Nguyễn Hải&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;em&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;div&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>

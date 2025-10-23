@@ -11,7 +11,7 @@ featured_image: "/images/java_js.png"
 
 <div style="display:flex; justify-content:center; gap:2rem; flex-wrap:wrap; margin-top:2rem;">
     <a href="java" style="padding:1.5rem 2rem; background:#f0db4f; border-radius:10px; font-weight:bold; color:#000; text-decoration:none;">☕ Java</a>
-    <a href="JavaScript" style="padding:1.5rem 2rem; background:#61dafb; border-radius:10px; font-weight:bold; color:#000; text-decoration:none;">⚡ JavaScript</a>
+    <a href="javascript" style="padding:1.5rem 2rem; background:#61dafb; border-radius:10px; font-weight:bold; color:#000; text-decoration:none;">⚡ JavaScript</a>
   </div>
 
 </section>
