@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tổng Kết on Blog DangnoHat</title><link>https://dang-nh-cen.github.io/dangcode-blog/tags/t%E1%BB%95ng-k%E1%BA%BFt/</link><description>Recent content in Tổng Kết on Blog DangnoHat</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Wed, 22 Oct 2025 09:00:00 +0700</lastBuildDate><atom:link href="https://dang-nh-cen.github.io/dangcode-blog/tags/t%E1%BB%95ng-k%E1%BA%BFt/index.xml" rel="self" type="application/rss+xml"/><item><title>Tổng kết lý thuyết và cảm nhận cá nhân khi học Java</title><link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/java_summary/</link><pubDate>Wed, 22 Oct 2025 09:00:00 +0700</pubDate><guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/java_summary/</guid><description>&lt;p&gt;&lt;img src="https://cdn.pixabay.com/photo/2017/05/10/16/06/java-2306154_1280.png" alt="Java Language"&gt;&lt;/p&gt;
+&lt;h2 id="-tổng-kết-lý-thuyết-về-java"&gt;🧠 Tổng kết lý thuyết về Java&lt;/h2&gt;
+&lt;h3 id="1-giới-thiệu-về-java"&gt;1. Giới thiệu về Java&lt;/h3&gt;
+&lt;p&gt;Java là &lt;strong&gt;ngôn ngữ lập trình hướng đối tượng, đa nền tảng&lt;/strong&gt;, được phát triển bởi Sun Microsystems (nay thuộc Oracle).&lt;br&gt;
+Với khẩu hiệu &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt;, Java có thể chạy trên nhiều hệ điều hành nhờ &lt;strong&gt;JVM (Java Virtual Machine)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Đặc điểm nổi bật:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đa nền tảng (Cross-platform)&lt;/li&gt;
+&lt;li&gt;Hướng đối tượng (OOP)&lt;/li&gt;
+&lt;li&gt;Bảo mật, ổn định cao&lt;/li&gt;
+&lt;li&gt;Thư viện phong phú (Java API)&lt;/li&gt;
+&lt;li&gt;Quản lý bộ nhớ tự động (Garbage Collector)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="2-cấu-trúc-cơ-bản-của-chương-trình-java"&gt;2. Cấu trúc cơ bản của chương trình Java&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Main&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;static&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;(String&lt;span style="color:#f92672"&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; System.&lt;span style="color:#a6e22e"&gt;out&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;println&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;Hello Java!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;---&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;div style&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;&amp;#34;&lt;/span&gt;&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;🎯&lt;/span&gt; &lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;strong&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ&lt;span style="color:#f92672"&gt;!&amp;lt;/&lt;/span&gt;strong&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;🚀&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt;br&lt;span style="color:#f92672"&gt;&amp;gt;&amp;lt;&lt;/span&gt;em&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;—&lt;/span&gt; Đăng Nguyễn Hải&lt;span style="color:#f92672"&gt;&amp;lt;/&lt;/span&gt;em&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;&amp;lt;/&lt;/span&gt;div&lt;span style="color:#f92672"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>

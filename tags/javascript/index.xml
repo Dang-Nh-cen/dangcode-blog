@@ -73,4 +73,9 @@ còn while là người làm đến khi “xong việc”.&lt;/p&gt;</descriptio
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="3-lặp-qua-mảng"&gt;3. Lặp qua mảng&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;scores&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;forEach&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;s&lt;/span&gt; =&amp;gt; &lt;span style="color:#a6e22e"&gt;console&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;log&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;`Điểm: &lt;/span&gt;&lt;span style="color:#e6db74"&gt;${&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;s&lt;/span&gt;&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;`&lt;/span&gt;));
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💡 Feynman Tip: Object là “tủ hồ sơ” (có nhãn – giá trị),
-còn Array là “danh sách số thứ tự”.&lt;/p&gt;</description></item></channel></rss>
+còn Array là “danh sách số thứ tự”.&lt;/p&gt;
+&lt;hr&gt;
+&lt;div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;"&gt;
+🎯 &lt;strong&gt;Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!&lt;/strong&gt; 🚀 
+&lt;br&gt;&lt;em&gt;— Đăng Nguyễn Hải&lt;/em&gt;
+&lt;/div&gt;</description></item></channel></rss>
