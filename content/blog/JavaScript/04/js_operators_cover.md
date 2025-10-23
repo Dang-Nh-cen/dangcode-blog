@@ -52,3 +52,9 @@ let valid = (age >= 18) ? "Đủ tuổi" : "Chưa đủ tuổi";
 console.log(valid);
 
 ```
+
+---
+<div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;">
+🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
+<br><em>— Đăng Nguyễn Hải</em>
+</div>

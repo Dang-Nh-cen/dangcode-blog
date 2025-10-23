@@ -1,6 +1,7 @@
 ---
 title: "Blog – Java & JavaScript"
 description: "Khám phá hai ngôn ngữ phổ biến: Java và JavaScript qua các bài viết sinh động, minh họa và dễ hiểu."
+featured_image: "/images/java_js.png"
 ---
 
 <section style="text-align:center; margin-top:2rem;">

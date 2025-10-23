@@ -3,14 +3,14 @@ title: "Vòng lặp trong Java: for, while, do-while"
 date: 2025-10-20T09:00:00+07:00
 author: "Đăng Nguyễn Hải"
 tags: ["Java","Vòng lặp","For","While","Feynman"]
-featured_image: "/images/java_cover_14.png"
+featured_image: "/images/vong_lap.png"
 draft: false
 weight: 6
 ---
 
 Vòng lặp giúp **làm việc lặp đi lặp lại** mà không viết lại code. Mình học bằng Feynman: “Vòng lặp = robot làm nhiệm vụ nhiều lần”.<!--more-->
 
-![Java Loops](/images/java_loops.png)
+![Java Loops](/dangcode-blog/images/lopp.png)
 
 ## 1. Vòng lặp for
 
@@ -57,3 +57,9 @@ Vẽ sơ đồ flow → hiểu nhanh
 ## 6. Kết luận
 
 Vòng lặp là nền tảng lập trình
+
+---
+<div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;">
+🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
+<br><em>— Đăng Nguyễn Hải</em>
+</div>

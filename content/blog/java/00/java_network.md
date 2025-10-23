@@ -11,7 +11,7 @@ weight: 1
 Java và mạng máy tính là **hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại**. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. <!--More-->
 
 
-![Java and Network]({{ "images/java_0.png" | relURL }})
+![Java and Network](/dangcode-blog/images/java_0.png)
 
 
 --- 
@@ -129,3 +129,9 @@ Học thêm về Computer Networking Essentials để hiểu nền tảng Intern
 Thực hành: Viết ứng dụng chat hoặc web đơn giản bằng Java Socket.
 
 -Bài viết được chia sẻ bởi Đăng Nguyễn Hải – người đam mê lập trình mạng và ngôn ngữ Java.
+
+---
+<div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;">
+🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
+<br><em>— Đăng Nguyễn Hải</em>
+</div>

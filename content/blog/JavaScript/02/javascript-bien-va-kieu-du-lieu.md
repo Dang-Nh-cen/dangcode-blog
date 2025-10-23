@@ -62,3 +62,9 @@ console.log(`Tên: ${student.name}, Tuổi: ${student.age}`);
 Hãy dùng Feynman để tự hỏi:
 “Nếu phải giải thích biến cho người 5 tuổi, tôi sẽ nói thế nào?”
 → “Là chỗ để cất giữ thông tin để dùng lại sau.”
+
+---
+<div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;">
+🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
+<br><em>— Đăng Nguyễn Hải</em>
+</div>

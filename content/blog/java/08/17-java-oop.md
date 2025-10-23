@@ -3,7 +3,7 @@ title: "Lập trình hướng đối tượng nâng cao: Class, Inheritance, Pol
 date: 2025-10-20T09:00:00+07:00
 author: "Đăng Nguyễn Hải"
 tags: ["Java","OOP","Class","Inheritance","Polymorphism","Feynman"]
-featured_image: "/images/java_cover_17.png"
+featured_image: "/images/class.jpg"
 draft: false
 weight: 9
 ---
@@ -11,7 +11,7 @@ weight: 9
 Java là ngôn ngữ **hướng đối tượng (OOP)**. Class, Inheritance, Polymorphism là nền tảng.  
 Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.<!--more-->
 
-![Java OOP](/images/java_oop.png)
+![Java OOP](/dangcode-blog/images/oop.jpg)
 
 ## 1. Class và Object
 
@@ -50,3 +50,9 @@ a.sound(); // Woof
 ## 5. Kết luận
 
 - OOP giúp tổ chức code lớn dễ dàng và linh hoạt
+
+---
+<div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;">
+🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
+<br><em>— Đăng Nguyễn Hải</em>
+</div>

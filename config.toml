@@ -22,18 +22,33 @@ canonifyURLs = true
 
 
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+ [[menu.main]]
+  name = "🏠 Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "📝 Blog"
+  url = "/blog/"
+  weight = 2
+
+[[menu.main]]
+  name = "🚀 Hướng dẫn"
+  url = "/huong_dan_java/"
+  weight = 3
+  identifier = "cta-java"
+
+[[menu.main]]
+  name = "💬 Cảm nhận"
+  url = "/cam_nhan/"
+  weight = 4
+
+
 
   [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Giới thiệu"
+    name = "💫 Giới thiệu cá nhân"
     url = "/profile/"
-    weight = 3
+    weight = 5
+
+
 

@@ -54,7 +54,7 @@ public class HelloWorld {
 - **Enterprise software:** phần mềm doanh nghiệp, hệ thống quản lý  
 - **Embedded systems & IoT:** thiết bị nhúng, smart devices
 
-![Java Applications](java_app.png)
+![Java Applications](/dangcode-blog/images/java_app.png)
 
 ## 4. Trải nghiệm và phương pháp học
 
@@ -68,4 +68,13 @@ public class HelloWorld {
 - Java là **ngôn ngữ mạnh mẽ, bền vững và phổ biến**.  
 - Hiểu lịch sử và đặc điểm giúp **sử dụng Java hiệu quả hơn**.  
 - Áp dụng **Feynman + thực hành liên tục** giúp ghi nhớ và hiểu sâu kiến thức Java.
+
+---
+
+
+<div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;">
+🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
+<br><em>— Đăng Nguyễn Hải</em>
+</div>
+
 

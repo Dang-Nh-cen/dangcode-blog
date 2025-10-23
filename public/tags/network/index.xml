@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on Blog DangnoHat</title>
-    <link>https://dang-nh-cen.github.io/dangcode-blog/tags/network/</link>
+    <link>http://localhost:1313/dangcode-blog/tags/network/</link>
     <description>Recent content in Network on Blog DangnoHat</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Tue, 21 Oct 2025 09:00:00 +0700</lastBuildDate>
-    <atom:link href="https://dang-nh-cen.github.io/dangcode-blog/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/dangcode-blog/tags/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mối liên hệ giữa Java và Mạng máy tính – Từ lịch sử Internet đến lập trình mạng hiện đại</title>
-      <link>https://dang-nh-cen.github.io/dangcode-blog/blog/java/00/java_network/</link>
+      <link>http://localhost:1313/dangcode-blog/blog/java/00/java_network/</link>
       <pubDate>Tue, 21 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>https://dang-nh-cen.github.io/dangcode-blog/blog/java/00/java_network/</guid>
-      <description>&lt;p&gt;Java và mạng máy tính là &lt;strong&gt;hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại&lt;/strong&gt;. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. &lt;!--More--&gt;&lt;/p&gt;&#xA;&lt;p&gt;![Java and Network]({{ &amp;ldquo;images/java_0.png&amp;rdquo; | relURL }})&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-lịch-sử-mạng-máy-tính--từ-arpanet-đến-internet&#34;&gt;1. Lịch sử mạng máy tính – Từ ARPANET đến Internet&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1969&lt;/strong&gt;: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1983&lt;/strong&gt;: giao thức &lt;strong&gt;TCP/IP&lt;/strong&gt; trở thành tiêu chuẩn, Internet hình thành.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1990&lt;/strong&gt;: Tim Berners-Lee phát minh &lt;strong&gt;World Wide Web (WWW)&lt;/strong&gt;, mở ra kỷ nguyên web.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.&lt;br&gt;&#xA;Và Java xuất hiện đúng thời điểm vàng đó.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/dangcode-blog/blog/java/00/java_network/</guid>
+      <description>&lt;p&gt;Java và mạng máy tính là &lt;strong&gt;hai nền tảng song hành trong hành trình phát triển của công nghệ hiện đại&lt;/strong&gt;. Nếu Internet là “hệ thần kinh” toàn cầu, thì Java chính là “ngôn ngữ” giúp máy móc giao tiếp qua hệ thần kinh đó. &lt;!--More--&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dangcode-blog/images/java_0.png&#34; alt=&#34;Java and Network&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-lịch-sử-mạng-máy-tính--từ-arpanet-đến-internet&#34;&gt;1. Lịch sử mạng máy tính – Từ ARPANET đến Internet&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1969&lt;/strong&gt;: ARPANET – mạng máy tính đầu tiên ra đời tại Mỹ, kết nối các trường đại học.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1983&lt;/strong&gt;: giao thức &lt;strong&gt;TCP/IP&lt;/strong&gt; trở thành tiêu chuẩn, Internet hình thành.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1990&lt;/strong&gt;: Tim Berners-Lee phát minh &lt;strong&gt;World Wide Web (WWW)&lt;/strong&gt;, mở ra kỷ nguyên web.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Mạng máy tính phát triển giúp hàng tỷ thiết bị có thể trao đổi thông tin theo chuẩn chung.&lt;br&gt;&#xA;Và Java xuất hiện đúng thời điểm vàng đó.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

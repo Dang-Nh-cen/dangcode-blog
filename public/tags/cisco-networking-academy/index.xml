@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cisco Networking Academy on Blog DangnoHat</title>
+    <link>http://localhost:1313/dangcode-blog/tags/cisco-networking-academy/</link>
+    <description>Recent content in Cisco Networking Academy on Blog DangnoHat</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Tue, 21 Oct 2025 09:30:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/dangcode-blog/tags/cisco-networking-academy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cảm nhận khi học Java</title>
+      <link>http://localhost:1313/dangcode-blog/cam_nhan/</link>
+      <pubDate>Tue, 21 Oct 2025 09:30:00 +0700</pubDate>
+      <guid>http://localhost:1313/dangcode-blog/cam_nhan/</guid>
+      <description>&lt;h2 id=&#34;-cảm-nhận-cá-nhân&#34;&gt;🌱 Cảm nhận cá nhân&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“Learning Java is not just learning a language — it’s learning how to think like a developer.”&lt;br&gt;&#xA;&lt;em&gt;— Cisco Networking Academy&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Học Java thật sự là một hành trình đáng nhớ đối với mình.&lt;br&gt;&#xA;Ban đầu, khi làm quen với cú pháp và khái niệm &lt;strong&gt;lập trình hướng đối tượng (OOP)&lt;/strong&gt;, mình thấy khá choáng ngợp — nào là &lt;em&gt;class&lt;/em&gt;, &lt;em&gt;object&lt;/em&gt;, &lt;em&gt;inheritance&lt;/em&gt;, &lt;em&gt;encapsulation&lt;/em&gt;&amp;hellip;&lt;br&gt;&#xA;Nhưng càng học, mình càng nhận ra rằng Java không chỉ là một ngôn ngữ, mà là &lt;strong&gt;một cách tư duy có hệ thống&lt;/strong&gt;, giúp mình hiểu rõ hơn cách phần mềm được thiết kế, mở rộng và bảo trì.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hướng dẫn học Java hiệu quả</title>
+      <link>http://localhost:1313/dangcode-blog/huong_dan_java_hieu_qua/</link>
+      <pubDate>Tue, 21 Oct 2025 09:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/dangcode-blog/huong_dan_java_hieu_qua/</guid>
+      <description>&lt;h2 id=&#34;-học-java--hành-trình-cần-cả-tư-duy-và-sự-kiên-nhẫn&#34;&gt;🧠 Học Java — Hành trình cần cả tư duy và sự kiên nhẫn&lt;/h2&gt;&#xA;&lt;p&gt;Bắt đầu học &lt;strong&gt;Java&lt;/strong&gt; có thể khiến nhiều người cảm thấy choáng ngợp — cú pháp dài, khái niệm “class”, “object”, “method” nghe có vẻ khô khan.&lt;br&gt;&#xA;Nhưng khi đi đúng lộ trình, bạn sẽ thấy Java là &lt;strong&gt;ngôn ngữ cực kỳ tuyệt vời&lt;/strong&gt; để xây dựng nền tảng lập trình vững chắc và chuyên nghiệp.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
