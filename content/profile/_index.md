@@ -5,7 +5,11 @@ draft: false
 featured_image: "/images/anh_nen_1.jpg"
 ---
 
-![Avatar](gioithieu.png)
+<p style="text-align:center; margin-top:20px;">
+  <img src="gioithieu.png" alt="Avatar" class="avatar-glow-blue">
+</p>
+
+
 
 # Xin chào! 👋
 Mình là Nguyễn Hải Đăng, sinh viên năm 4 ngành Công nghệ thông tin – chuyên ngành Mạng máy tính tại **Đại học HUTECH**, đam mê khám phá và chia sẻ kiến thức công nghệ

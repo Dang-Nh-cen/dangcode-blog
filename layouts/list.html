@@ -1,0 +1,71 @@
+{{/* Dán code này vào file: layouts/list.html */}}
+
+{{ define "main" }}
+  <article class="nested-copy-line-height">
+    
+    {{/* --- 1. THẺ GIỚI THIỆU CHO SECTION --- */}}
+    <section class="w-100 w-90-m w-70-l center bg-white br3 shadow-3 pa4 pa5-ns mb5 lh-copy">
+      {{- .Content -}}
+    </section>
+    
+    {{/* --- 2. DANH SÁCH BÀI VIẾT TRONG SECTION --- */}}
+    <section class="pa3 pa4-ns">
+      <div class="mt5">
+        
+        {{ range .Paginator.Pages }}
+          {{/* --- Bắt đầu thẻ Card (ĐÃ SỬA) --- */}}
+          {{/* Chúng ta KHÔNG dùng .Render "summary" nữa.
+             Chúng ta tự xây dựng lại layout của "ảnh phải" ngay tại đây.
+          */}}
+          <div class="w-100 mb4 relative bg-white br3 overflow-hidden transition-all hover-shadow-large blog-card-hover-border">
+            
+            {{/* Đây là code tạo ra giao diện "ảnh phải" */}}
+            <div class="flex flex-column h-100 pa4">
+              
+              {{/* Ngày tháng */}}
+              <p class="f6 ttu tracked gray mb2">{{ .Date.Format "02/01/2006" }}</p>
+
+              {{/* Tiêu đề bài viết */}}
+              <h1 class="f3 fw6 mt0 mb2 lh-title">
+                <a href="{{ .RelPermalink }}" class="link black dim">
+                  {{ .Title }}
+                </a>
+              </h1>
+
+              {{/* Tags - Hiển thị ngang */}}
+              {{ with .Params.tags }}
+                <div class="flex flex-wrap mv2">
+                  {{ range . }}
+                    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="f6 dib br2 ph3 pv2 mb2 mr2 bg-washed-yellow black-70 grow link">
+                      {{ . }}
+                    </a>
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{/* Phần mô tả tóm tắt (quan trọng: dùng flex-auto) */}}
+              <p class="f5 lh-copy measure mt3 mb4 flex-auto black-70">
+                {{ .Summary }}
+              </p>
+
+              {{/* Nút Đọc tiếp */}}
+              <div class="tr"> {{/* Căn phải */}}
+                <a href="{{ .RelPermalink }}" class="f6 link dim br2 ba ph3 pv2 mb2 dib orange grow">
+                  Đọc tiếp &nbsp;&rarr;
+                </a>
+              </div>
+
+            </div>
+            {{/* Kết thúc code giao diện "ảnh phải" */}}
+
+          </div>
+          {{/* --- Kết thúc thẻ Card --- */}}
+        {{ end }}
+        
+      </div>
+    </section>
+    
+    {{/* Thêm phần phân trang */}}
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+{{ end }}

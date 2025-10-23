@@ -1,0 +1,36 @@
+{{/* layouts/_default/summary.html */}}
+
+<div class="flex flex-column h-100 pa3 pr4-ns pl4-ns pv3-ns ph0-l">
+  {{/* Ngày tháng - Luôn ở trên cùng */}}
+  <p class="f6 ttu tracked gray mb2">{{ .Date.Format "02/01/2006" }}</p>
+
+  {{/* Tiêu đề bài viết */}}
+  <h1 class="f3 fw6 mt0 mb2 lh-title">
+    <a href="{{ .RelPermalink }}" class="link black dim">
+      {{ .Title }}
+    </a>
+  </h1>
+
+  {{/* Tags - HIỂN THỊ NGANG VÀ CÓ KHOẢNG CÁCH */}}
+  {{ with .Params.tags }}
+    <div class="flex flex-wrap mv2">
+      {{ range . }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="f6 dib br2 ph3 pv2 mb2 mr2 bg-washed-green green grow link">
+          {{ . }}
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Phần mô tả tóm tắt */}}
+  <p class="f5 lh-copy measure mt3 mb4 flex-auto">
+    {{ .Summary }}
+  </p>
+
+  {{/* Nút Đọc tiếp - Luôn ở dưới cùng */}}
+  <div class="tc">
+    <a href="{{ .RelPermalink }}" class="f6 link dim br2 ba ph3 pv2 mb2 dib orange grow">
+      Đọc tiếp &nbsp;&rarr;
+    </a>
+  </div>
+</div>

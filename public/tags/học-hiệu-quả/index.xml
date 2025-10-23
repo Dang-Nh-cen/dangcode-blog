@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Học Hiệu Quả on Blog DangnoHat</title>
-    <link>https://dang-nh-cen.github.io/dangcode-blog/tags/h%E1%BB%8Dc-hi%E1%BB%87u-qu%E1%BA%A3/</link>
+    <link>http://localhost:1313/dangcode-blog/tags/h%E1%BB%8Dc-hi%E1%BB%87u-qu%E1%BA%A3/</link>
     <description>Recent content in Học Hiệu Quả on Blog DangnoHat</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate>Tue, 21 Oct 2025 09:00:00 +0700</lastBuildDate>
-    <atom:link href="https://dang-nh-cen.github.io/dangcode-blog/tags/h%E1%BB%8Dc-hi%E1%BB%87u-qu%E1%BA%A3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/dangcode-blog/tags/h%E1%BB%8Dc-hi%E1%BB%87u-qu%E1%BA%A3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hướng dẫn học Java hiệu quả</title>
-      <link>https://dang-nh-cen.github.io/dangcode-blog/huong_dan_java_hieu_qua/</link>
+      <link>http://localhost:1313/dangcode-blog/huong_dan_java_hieu_qua/</link>
       <pubDate>Tue, 21 Oct 2025 09:00:00 +0700</pubDate>
-      <guid>https://dang-nh-cen.github.io/dangcode-blog/huong_dan_java_hieu_qua/</guid>
+      <guid>http://localhost:1313/dangcode-blog/huong_dan_java_hieu_qua/</guid>
       <description>&lt;h2 id=&#34;-học-java--hành-trình-cần-cả-tư-duy-và-sự-kiên-nhẫn&#34;&gt;🧠 Học Java — Hành trình cần cả tư duy và sự kiên nhẫn&lt;/h2&gt;&#xA;&lt;p&gt;Bắt đầu học &lt;strong&gt;Java&lt;/strong&gt; có thể khiến nhiều người cảm thấy choáng ngợp — cú pháp dài, khái niệm “class”, “object”, “method” nghe có vẻ khô khan.&lt;br&gt;&#xA;Nhưng khi đi đúng lộ trình, bạn sẽ thấy Java là &lt;strong&gt;ngôn ngữ cực kỳ tuyệt vời&lt;/strong&gt; để xây dựng nền tảng lập trình vững chắc và chuyên nghiệp.&lt;/p&gt;</description>
     </item>
   </channel>
