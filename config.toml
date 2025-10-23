@@ -17,7 +17,7 @@ buildDrafts = true
       unsafe = true
 
 
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 
 
