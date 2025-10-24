@@ -13,7 +13,7 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/02/11-java-basics/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/02/11-java-basics/</guid>
-      <description>&lt;p&gt;Java là ngôn ngữ &lt;strong&gt;có kiểu dữ liệu tĩnh&lt;/strong&gt;. Mình học bằng cách giải thích theo Feynman từng loại biến.&lt;/p&gt;</description>
+      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;&lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;        Java là ngôn ngữ **có kiểu dữ liệu tĩnh (statically typed)**, nghĩa là bạn phải khai báo rõ ràng kiểu dữ liệu cho mỗi biến trước khi sử dụng. Đây là nền tảng đầu tiên mà mọi lập trình viên Java cần nắm vững. Trong bài viết này, mình sẽ cùng nhau khám phá **biến (variables), kiểu dữ liệu (data types) và hằng số (constants)** trong Java bằng cách giải thích theo phương pháp Feynman!&#xA;            &lt;/p&gt;</description>
     </item>
     <item>
       <title>Biến và kiểu dữ liệu trong JavaScript</title>

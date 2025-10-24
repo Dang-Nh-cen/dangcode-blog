@@ -62,3 +62,68 @@ nav a:hover {
   background: rgba(0, 170, 255, 0.1);
   border-radius: 10px;
 }
+
+/* Tùy chỉnh màu sắc cho khối code (pre và code) */
+pre {
+    background-color: #272822 !important; /* Nền tối hơn (Màu của Monokai Pro/VS Code Dark) */
+    color: #f8f8f2 !important;          /* Chữ sáng (Màu của Monokai Pro/VS Code Dark) */
+    padding: 1.5em !important;          /* Tăng padding để code thoáng hơn */
+    border-radius: 8px !important;      /* Bo tròn góc đẹp hơn */
+    overflow-x: auto !important;        /* Đảm bảo cuộn ngang nếu code quá dài */
+    font-size: 1.05em !important;       /* Kích thước chữ code */
+    line-height: 1.6 !important;        /* Khoảng cách dòng */
+}
+
+pre code {
+    color: #f8f8f2 !important;          /* Đảm bảo chữ bên trong code cũng sáng */
+    /* Bạn có thể thêm các màu riêng cho từng loại cú pháp nếu theme có hỗ trợ */
+    /* Ví dụ: .language-java .keyword { color: #f92672; } */
+}
+
+/* Nếu theme có sử dụng highlight.js hoặc Prism.js, bạn cũng có thể cần ghi đè các class của nó */
+/* Ví dụ cho highlight.js */
+.hljs {
+    background-color: #272822 !important;
+    color: #f8f8f2 !important;
+}
+.hljs-comment, .hljs-quote {
+    color: #75715e !important; /* Màu cho comment */
+}
+.hljs-keyword, .hljs-selector-tag, .hljs-subst {
+    color: #f92672 !important; /* Màu cho từ khóa */
+}
+.hljs-number, .hljs-literal, .hljs-variable, .hljs-template-variable, .hljs-tag .hljs-attr {
+    color: #ae81ff !important; /* Màu cho số, literal */
+}
+.hljs-string, .hljs-regexp, .hljs-symbol, .hljs-variable, .hljs-template-variable, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-attr {
+    color: #e6db74 !important; /* Màu cho chuỗi */
+}
+.hljs-name, .hljs-type, .hljs-selector-id, .hljs-selector-class, .hljs-title {
+    color: #a6e22e !important; /* Màu cho tên class/function */
+}
+/* ... và các class highlight khác nếu cần */
+
+/* Ghi đè CSS cốt lõi của theme Ananke để cho phép Full-Width */
+
+/* 1. Xóa giới hạn chiều rộng tối đa (max-width) */
+/* Ghi đè CSS cốt lõi của theme Ananke để cho phép Full-Width */
+
+/* 1. Xóa giới hạn chiều rộng tối đa (max-width) */
+.mw7 {
+    max-width: none !important;
+    width: 100% !important; /* Đảm bảo nó chiếm toàn bộ không gian */
+}
+
+/* 2. Loại bỏ căn giữa cứng và đảm bảo chiếm 100% */
+.center {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* 3. Loại bỏ padding hai bên mặc định (thường là ph4) */
+.ph4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

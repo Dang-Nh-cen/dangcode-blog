@@ -13,7 +13,7 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</guid>
-      <description>&lt;p&gt;Điều kiện giúp Java &lt;strong&gt;ra quyết định&lt;/strong&gt;. Mình học bằng Feynman: “Điều kiện = ngã rẽ đường”.&lt;/p&gt;</description>
+      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;  &lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      Trong lập trình, **câu lệnh điều kiện** là công cụ giúp chương trình Java **ra quyết định** dựa trên các tình huống khác nhau. Đây là một trong những khái niệm cơ bản nhưng mạnh mẽ nhất. Mình học bằng phương pháp Feynman: **“Điều kiện = ngã rẽ đường”**. Bài viết này sẽ giúp bạn nắm vững câu lệnh `if/else` trong Java.&#xA;  &lt;/p&gt;</description>
     </item>
     <item>
       <title>Câu điều kiện và vòng lặp trong JavaScript</title>
