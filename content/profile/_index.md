@@ -5,6 +5,53 @@ draft: false
 featured_image: "/images/anh_nen_1.jpg"
 ---
 
+<style>
+/* CSS cho Modal CV */
+.cv-modal {
+    display: none; /* Ẩn mặc định */
+    position: fixed;
+    z-index: 1000; /* Đảm bảo nằm trên cùng */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Cho phép cuộn */
+    background-color: rgba(0,0,0,0.9); /* Nền đen mờ */
+}
+
+.cv-modal-content {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 900px; /* Chiều rộng tối đa của CV */
+    margin-top: 50px;
+}
+
+.cv-modal-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Nút đóng */
+.cv-close {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cv-close:hover,
+.cv-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
 <div style="
     display: flex; /* Kích hoạt Flexbox */
     align-items: center; /* Căn giữa theo chiều dọc */
@@ -106,7 +153,26 @@ featured_image: "/images/anh_nen_1.jpg"
         <p style="font-weight: 700; font-size: 1.4em; color: #333;">
             nguyenhaidang28092004@gmail.com
         </p>
-    </div>
+        
+<button id="viewCvButton" style="
+    background-color: #4CAF50; /* Màu xanh lá cây */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px #38761D;
+    transition: all 0.2s;
+    font-weight: 600;
+" onmouseover="this.style.backgroundColor='#38761D'" onmouseout="this.style.backgroundColor='#4CAF50'">
+    📄 Nhấn xem CV
+</button>
+</div>
 
   <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
 
@@ -146,3 +212,43 @@ featured_image: "/images/anh_nen_1.jpg"
         </p>
     </div>
 </div>
+
+<div id="cvModal" class="cv-modal">
+  <span class="cv-close">&times;</span>
+  <div class="cv-modal-content">
+    <img id="cvImage" src="/dangcode-blog/images/cv_nguyenhaidang.png" alt="CV Nguyễn Hải Đăng">
+  </div>
+</div>
+
+<script>
+    // Lấy các phần tử modal
+    var modal = document.getElementById("cvModal");
+
+    // Lấy nút mở modal
+    var btn = document.getElementById("viewCvButton");
+
+    // Lấy phần tử <span> (x) để đóng modal
+    var span = document.getElementsByClassName("cv-close")[0];
+
+    // Khi người dùng click vào nút, mở modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+      // Tùy chọn: ngăn cuộn trang chính
+      document.body.style.overflow = "hidden"; 
+    }
+
+    // Khi người dùng click vào (x), đóng modal
+    span.onclick = function() {
+      modal.style.display = "none";
+      // Tùy chọn: cho phép cuộn trang chính lại
+      document.body.style.overflow = "auto";
+    }
+
+    // Khi người dùng click bất cứ đâu ngoài modal, đóng nó (ngoại trừ nút)
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+        document.body.style.overflow = "auto";
+      }
+    }
+</script>
