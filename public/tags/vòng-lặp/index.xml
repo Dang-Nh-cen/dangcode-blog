@@ -13,7 +13,7 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/05/14-java-loops/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/05/14-java-loops/</guid>
-      <description>&lt;p&gt;Vòng lặp giúp &lt;strong&gt;làm việc lặp đi lặp lại&lt;/strong&gt; mà không viết lại code. Mình học bằng Feynman: “Vòng lặp = robot làm nhiệm vụ nhiều lần”.&lt;/p&gt;</description>
+      <description>Vòng lặp (Loops) là tính năng cốt lõi, giúp chương trình của bạn thực hiện một hành động lặp đi lặp lại nhiều lần mà không cần viết lại cùng một đoạn mã. Nó giống như một con robot làm việc lặp lại.</description>
     </item>
     <item>
       <title>Câu điều kiện và vòng lặp trong JavaScript</title>

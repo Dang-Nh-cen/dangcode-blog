@@ -108,6 +108,7 @@ draft: false
         <li><span style="font-weight: 600; color: #00bcd4;">Oracle Java Tutorials:</span> Dành cho người học nghiêm túc muốn nắm vững kiến thức gốc.</li>
         <li><span style="font-weight: 600; color: #00bcd4;">YouTube Channels:</span> Bro Code, freeCodeCamp.org, Telusko.</li>
         <li><span style="font-weight: 600; color: #00bcd4;">Sách hay nên đọc:</span> *Head First Java*, *Effective Java*, *Java: A Beginner’s Guide*.</li>
+        <li><span style="font-weight: 600; color: #00bcd4;">Đọc BLog của mình thường xuyên nữa nè😁🤓</span>
     </ul>
 
   <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">

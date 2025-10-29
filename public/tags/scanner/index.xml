@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 20 Oct 2025 09:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/dangcode-blog/tags/scanner/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java Input/Output (I/O)</title>
+      <title>Java Input/Output (I/O): Làm việc với Console và File</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/</guid>
-      <description>&lt;p&gt;Java I/O giúp &lt;strong&gt;đọc/ghi dữ liệu từ file hoặc console&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;  &lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      Java I/O (Input/Output) là hệ thống giúp chương trình của bạn **đọc/ghi dữ liệu từ các nguồn bên ngoài** như file, console, hoặc kết nối mạng. Đây là khả năng giao tiếp cơ bản nhất của mọi ứng dụng.&#xA;  &lt;/p&gt;&#xA;  &lt;div style=&#34;text-align: center; margin-bottom: 40px;&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/dangcode-blog/images/io-ins.gif&#34; alt=&#34;Java IO&#34; style=&#34;max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);&#34;&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;padding: 15px; border-left: 5px solid #ff9800; background-color: #fff8e1; margin: 30px 0; font-size: 1.25em;&#34;&gt;&#xA;      Mình học bằng phương pháp Feynman: &#xA;      &gt; **“Input = nhận dữ liệu từ nguồn bên ngoài, Output = trả dữ liệu ra ngoài.”**&#xA;  &lt;/div&gt;&#xA;  &lt;hr style=&#34;border: 0; height: 1px; background-color: #ddd; margin: 40px 0;&#34;&gt;&#xA;  &lt;h2 style=&#34;color: #007bff; border-bottom: 3px solid #e0f7fa; padding-bottom: 10px; margin-top: 50px; font-weight: 700; font-size: 2.0em;&#34;&gt;&#xA;      1. Nhập/Xuất Console và Khái niệm Stream&#xA;  &lt;/h2&gt;&#xA;  &lt;div style=&#34;font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      &lt;p&gt;Tất cả I/O trong Java đều dựa trên **Stream (Luồng)**. Stream là một chuỗi dữ liệu mà chương trình có thể đọc từ đó (Input Stream) hoặc ghi vào đó (Output Stream).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

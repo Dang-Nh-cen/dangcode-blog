@@ -41,49 +41,49 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</guid>
-      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;  &lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      Trong lập trình, **câu lệnh điều kiện** là công cụ giúp chương trình Java **ra quyết định** dựa trên các tình huống khác nhau. Đây là một trong những khái niệm cơ bản nhưng mạnh mẽ nhất. Mình học bằng phương pháp Feynman: **“Điều kiện = ngã rẽ đường”**. Bài viết này sẽ giúp bạn nắm vững câu lệnh `if/else` trong Java.&#xA;  &lt;/p&gt;</description>
+      <description>Trong lập trình, câu lệnh điều kiện là công cụ giúp chương trình Java ra quyết định dựa trên các tình huống khác nhau. Đây là một trong những khái niệm cơ bản nhưng mạnh mẽ nhất.</description>
     </item>
     <item>
       <title>Vòng lặp trong Java: for, while, do-while</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/05/14-java-loops/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/05/14-java-loops/</guid>
-      <description>&lt;p&gt;Vòng lặp giúp &lt;strong&gt;làm việc lặp đi lặp lại&lt;/strong&gt; mà không viết lại code. Mình học bằng Feynman: “Vòng lặp = robot làm nhiệm vụ nhiều lần”.&lt;/p&gt;</description>
+      <description>Vòng lặp (Loops) là tính năng cốt lõi, giúp chương trình của bạn thực hiện một hành động lặp đi lặp lại nhiều lần mà không cần viết lại cùng một đoạn mã. Nó giống như một con robot làm việc lặp lại.</description>
     </item>
     <item>
       <title>Mảng và Collection trong Java</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/</guid>
-      <description>&lt;p&gt;Mảng và Collection giúp &lt;strong&gt;lưu trữ nhiều giá trị cùng lúc&lt;/strong&gt;. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.&lt;/p&gt;</description>
+      <description>Mảng (Array) và Collection là hai công cụ chính giúp bạn &lt;strong&gt;lưu trữ và quản lý nhiều giá trị cùng lúc&lt;/strong&gt; trong Java. Nắm vững hai khái niệm này là chìa khóa để xử lý dữ liệu quy mô lớn hơn một biến đơn lẻ. Mình học bằng phương pháp Feynman.</description>
     </item>
     <item>
       <title>Hàm, Overloading và Parameter Passing trong Java</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/07/16-java-functions/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/07/16-java-functions/</guid>
-      <description>&lt;p&gt;Hàm giúp &lt;strong&gt;tổ chức và tái sử dụng code&lt;/strong&gt;. Overloading và Parameter Passing làm code linh hoạt hơn.&lt;/p&gt;</description>
+      <description>Trong lập trình Java, &lt;strong&gt;Hàm (Method)&lt;/strong&gt; là công cụ cốt lõi giúp bạn &lt;strong&gt;tổ chức code thành các khối nhỏ logic, dễ quản lý và tái sử dụng&lt;/strong&gt;. Cùng với &lt;strong&gt;Overloading&lt;/strong&gt; và &lt;strong&gt;Parameter Passing&lt;/strong&gt;, hàm giúp code của chúng ta trở nên mạnh mẽ và linh hoạt hơn rất nhiều.</description>
     </item>
     <item>
       <title>Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/</guid>
-      <description>&lt;p&gt;Java là ngôn ngữ &lt;strong&gt;hướng đối tượng (OOP)&lt;/strong&gt;. Class, Inheritance, Polymorphism là nền tảng.&lt;br&gt;&#xA;Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.&lt;/p&gt;</description>
+      <description>Java là ngôn ngữ &lt;strong&gt;hướng đối tượng (OOP) thuần túy&lt;/strong&gt;. Nắm vững các trụ cột của OOP như &lt;strong&gt;Class, Object, Inheritance (Kế thừa), và Polymorphism (Đa hình)&lt;/strong&gt; là chìa khóa để xây dựng các ứng dụng lớn, có cấu trúc và dễ bảo trì.</description>
     </item>
     <item>
       <title>Exception Handling trong Java</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/09/18-java-exception/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/09/18-java-exception/</guid>
-      <description>&lt;p&gt;Exception giúp &lt;strong&gt;bắt lỗi và duy trì chương trình chạy ổn định&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;&lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;    Trong lập trình Java, **Xử lý ngoại lệ (Exception Handling)** là kỹ thuật cốt lõi giúp bạn **bắt lỗi và duy trì chương trình chạy ổn định** ngay cả khi có sự cố xảy ra. Thay vì bị dừng đột ngột, chương trình có thể &#34;cứu hộ&#34; và tiếp tục công việc.&#xA;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center; margin-bottom: 40px;&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/dangcode-blog/images/exc.png&#34; alt=&#34;Java Exception&#34; style=&#34;max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;div style=&#34;padding: 15px; border-left: 5px solid #ff9800; background-color: #fff8e1; margin: 30px 0; font-size: 1.25em;&#34;&gt;&#xA;    Mình học bằng phương pháp Feynman: &#xA;    &gt; **“Exception = tín hiệu cảnh báo bất ngờ, Catch = đội cứu hộ phản ứng nhanh.”**&#xA;&lt;/div&gt;&#xA;&lt;hr style=&#34;border: 0; height: 1px; background-color: #ddd; margin: 40px 0;&#34;&gt;&#xA;&lt;h2 style=&#34;color: #007bff; border-bottom: 3px solid #e0f7fa; padding-bottom: 10px; margin-top: 50px; font-weight: 700; font-size: 2.0em;&#34;&gt;&#xA;    1. Cấu trúc Try-Catch và Phân loại ngoại lệ&#xA;&lt;/h2&gt;&#xA;&lt;div style=&#34;font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;    &lt;p&gt;&#xA;        Khối `try` chứa đoạn code có nguy cơ gây lỗi (ngoại lệ). Nếu lỗi xảy ra, khối `try` sẽ ngừng chạy và chương trình chuyển đến khối `catch` phù hợp để xử lý.&#xA;    &lt;/p&gt;</description>
     </item>
     <item>
-      <title>Java Input/Output (I/O)</title>
+      <title>Java Input/Output (I/O): Làm việc với Console và File</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/</guid>
-      <description>&lt;p&gt;Java I/O giúp &lt;strong&gt;đọc/ghi dữ liệu từ file hoặc console&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;  &lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      Java I/O (Input/Output) là hệ thống giúp chương trình của bạn **đọc/ghi dữ liệu từ các nguồn bên ngoài** như file, console, hoặc kết nối mạng. Đây là khả năng giao tiếp cơ bản nhất của mọi ứng dụng.&#xA;  &lt;/p&gt;&#xA;  &lt;div style=&#34;text-align: center; margin-bottom: 40px;&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/dangcode-blog/images/io-ins.gif&#34; alt=&#34;Java IO&#34; style=&#34;max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);&#34;&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;padding: 15px; border-left: 5px solid #ff9800; background-color: #fff8e1; margin: 30px 0; font-size: 1.25em;&#34;&gt;&#xA;      Mình học bằng phương pháp Feynman: &#xA;      &gt; **“Input = nhận dữ liệu từ nguồn bên ngoài, Output = trả dữ liệu ra ngoài.”**&#xA;  &lt;/div&gt;&#xA;  &lt;hr style=&#34;border: 0; height: 1px; background-color: #ddd; margin: 40px 0;&#34;&gt;&#xA;  &lt;h2 style=&#34;color: #007bff; border-bottom: 3px solid #e0f7fa; padding-bottom: 10px; margin-top: 50px; font-weight: 700; font-size: 2.0em;&#34;&gt;&#xA;      1. Nhập/Xuất Console và Khái niệm Stream&#xA;  &lt;/h2&gt;&#xA;  &lt;div style=&#34;font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      &lt;p&gt;Tất cả I/O trong Java đều dựa trên **Stream (Luồng)**. Stream là một chuỗi dữ liệu mà chương trình có thể đọc từ đó (Input Stream) hoặc ghi vào đó (Output Stream).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tổng kết lý thuyết và cảm nhận cá nhân khi học Java</title>

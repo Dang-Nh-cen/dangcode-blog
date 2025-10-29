@@ -13,7 +13,7 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/</guid>
-      <description>&lt;p&gt;Java là ngôn ngữ &lt;strong&gt;hướng đối tượng (OOP)&lt;/strong&gt;. Class, Inheritance, Polymorphism là nền tảng.&lt;br&gt;&#xA;Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.&lt;/p&gt;</description>
+      <description>Java là ngôn ngữ &lt;strong&gt;hướng đối tượng (OOP) thuần túy&lt;/strong&gt;. Nắm vững các trụ cột của OOP như &lt;strong&gt;Class, Object, Inheritance (Kế thừa), và Polymorphism (Đa hình)&lt;/strong&gt; là chìa khóa để xây dựng các ứng dụng lớn, có cấu trúc và dễ bảo trì.</description>
     </item>
   </channel>
 </rss>

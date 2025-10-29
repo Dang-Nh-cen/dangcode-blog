@@ -13,7 +13,7 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/</guid>
-      <description>&lt;p&gt;Mảng và Collection giúp &lt;strong&gt;lưu trữ nhiều giá trị cùng lúc&lt;/strong&gt;. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.&lt;/p&gt;</description>
+      <description>Mảng (Array) và Collection là hai công cụ chính giúp bạn &lt;strong&gt;lưu trữ và quản lý nhiều giá trị cùng lúc&lt;/strong&gt; trong Java. Nắm vững hai khái niệm này là chìa khóa để xử lý dữ liệu quy mô lớn hơn một biến đơn lẻ. Mình học bằng phương pháp Feynman.</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     
     <title>Mảng và Collection trong Java | Blog DangnoHat</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Mảng và Collection giúp lưu trữ nhiều giá trị cùng lúc. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.">
+    <meta name="description" content="Mảng (Array) và Collection là hai công cụ chính giúp bạn lưu trữ và quản lý nhiều giá trị cùng lúc trong Java. Nắm vững hai khái niệm này là chìa khóa để xử lý dữ liệu quy mô lớn hơn một biến đơn lẻ. Mình học bằng phương pháp Feynman.">
     <meta name="generator" content="Hugo 0.151.2">
     
     
@@ -43,7 +43,7 @@
     <meta property="og:url" content="http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/">
   <meta property="og:site_name" content="Blog DangnoHat">
   <meta property="og:title" content="Mảng và Collection trong Java">
-  <meta property="og:description" content="Mảng và Collection giúp lưu trữ nhiều giá trị cùng lúc. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.">
+  <meta property="og:description" content="Mảng (Array) và Collection là hai công cụ chính giúp bạn lưu trữ và quản lý nhiều giá trị cùng lúc trong Java. Nắm vững hai khái niệm này là chìa khóa để xử lý dữ liệu quy mô lớn hơn một biến đơn lẻ. Mình học bằng phương pháp Feynman.">
   <meta property="og:locale" content="vi">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -57,14 +57,14 @@
     <meta property="article:tag" content="Feynman">
 
   <meta itemprop="name" content="Mảng và Collection trong Java">
-  <meta itemprop="description" content="Mảng và Collection giúp lưu trữ nhiều giá trị cùng lúc. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.">
+  <meta itemprop="description" content="Mảng (Array) và Collection là hai công cụ chính giúp bạn lưu trữ và quản lý nhiều giá trị cùng lúc trong Java. Nắm vững hai khái niệm này là chìa khóa để xử lý dữ liệu quy mô lớn hơn một biến đơn lẻ. Mình học bằng phương pháp Feynman.">
   <meta itemprop="datePublished" content="2025-10-20T09:00:00+07:00">
   <meta itemprop="dateModified" content="2025-10-20T09:00:00+07:00">
-  <meta itemprop="wordCount" content="143">
+  <meta itemprop="wordCount" content="602">
   <meta itemprop="keywords" content="Java,Mảng,Collection,Array,List,Feynman">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Mảng và Collection trong Java">
-  <meta name="twitter:description" content="Mảng và Collection giúp lưu trữ nhiều giá trị cùng lúc. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.">
+  <meta name="twitter:description" content="Mảng (Array) và Collection là hai công cụ chính giúp bạn lưu trữ và quản lý nhiều giá trị cùng lúc trong Java. Nắm vững hai khái niệm này là chìa khóa để xử lý dữ liệu quy mô lớn hơn một biến đơn lẻ. Mình học bằng phương pháp Feynman.">
 
 	
 
@@ -180,37 +180,137 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Mảng và Collection giúp <strong>lưu trữ nhiều giá trị cùng lúc</strong>. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.</p>
-<p><img src="/dangcode-blog/images/a_c.jpeg" alt="Java Array Collection"></p>
-<h2 id="1-mảng-array">1. Mảng (Array)</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> numbers <span style="color:#f92672">=</span> {1,2,3,4,5};
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> n : numbers){
-</span></span><span style="display:flex;"><span>  System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(n);
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="2-collection-arraylist">2. Collection (ArrayList)</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.ArrayList;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ArrayList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> fruits <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>();
-</span></span><span style="display:flex;"><span>fruits.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Táo&#34;</span>);
-</span></span><span style="display:flex;"><span>fruits.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Cam&#34;</span>);
-</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(fruits);
-</span></span></code></pre></div><h2 id="3-trải-nghiệm-học">3. Trải nghiệm học</h2>
-<ul>
-<li>
-<p>Thực hành thêm xóa, sắp xếp mảng và ArrayList</p>
-</li>
-<li>
-<p>Vẽ sơ đồ Feynman: mảng = ngăn hộp, ArrayList = tủ đồ mở rộng → dễ hình dung</p>
-</li>
-</ul>
-<h2 id="4-kết-luận">4. Kết luận</h2>
-<ul>
-<li>Mảng &amp; Collection là công cụ lưu trữ dữ liệu cơ bản và nâng cao</li>
-</ul>
-<hr>
-<div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;">
-🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
-<br><em>— Đăng Nguyễn Hải</em>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><div style="max-width: 950px; margin: 0 auto; padding: 0 10px;">
+  <p style="font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;">
+      Mảng (Array) và Collection là hai công cụ chính giúp bạn **lưu trữ và quản lý nhiều giá trị cùng lúc** trong Java. Nắm vững hai khái niệm này là chìa khóa để xử lý dữ liệu quy mô lớn hơn một biến đơn lẻ. Mình học bằng phương pháp Feynman: 
+  </p>
+  <div style="padding: 15px; border-left: 5px solid #ff9800; background-color: #fff8e1; margin: 30px 0; font-size: 1.25em;">
+      > **“Mảng = hộp nhiều ngăn cố định, Collection = tủ đồ linh hoạt có thể mở rộng.”**
+  </div>
+  <div style="text-align: center; margin-bottom: 40px;">
+      <img src="/dangcode-blog/images/a_c.jpeg" alt="Java Array Collection" style="max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);">
+  </div>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <h2 style="color: #007bff; border-bottom: 3px solid #e0f7fa; padding-bottom: 10px; margin-top: 50px; font-weight: 700; font-size: 2.0em;">
+      1. Mảng (Array)
+  </h2>
+  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
+      <p>Mảng là một **cấu trúc dữ liệu có kích thước cố định**, dùng để lưu trữ các phần tử cùng kiểu dữ liệu (ví dụ: tất cả đều là `int`, hoặc tất cả đều là `String`). Mảng được truy cập thông qua **chỉ mục (index)** bắt đầu từ `0`.</p>
+<pre><code>  &lt;h3 style=&quot;color: #333; font-weight: 600; font-size: 1.5em; margin-top: 30px;&quot;&gt;
+      Thao tác cơ bản với Mảng
+  &lt;/h3&gt;
+</code></pre>
+  </div>
+<pre style="background-color: #282c34; color: #abb2bf; padding: 1.5em; border-radius: 8px; overflow-x: auto; font-size: 1.1em; line-height: 1.6;">
+<code class="language-java">
+// Khai báo và khởi tạo mảng số nguyên
+int[] numbers = {1, 2, 3, 4, 5};
+
+// Truy cập phần tử (lấy giá trị ở index 0)
+System.out.println("Phần tử đầu tiên: " + numbers[0]); // Output: 1
+
+// Thay đổi giá trị
+numbers[4] = 10; // Đặt giá trị 10 vào vị trí cuối cùng
+
+// Duyệt mảng bằng vòng lặp For-Each
+System.out.println("Các phần tử:");
+for(int n : numbers){
+    System.out.println(n);
+}
+</code>
+</pre>
+  <div style="padding: 15px; border-left: 5px solid #ff9800; background-color: #fff8e1; margin: 30px 0; font-size: 1.25em;">
+      ⚠️ **Lưu ý quan trọng:** Kích thước của mảng được quyết định ngay khi tạo và không thể thay đổi sau đó. Nếu cố gắng truy cập chỉ mục nằm ngoài phạm vi (`numbers[5]`), chương trình sẽ bị lỗi `ArrayIndexOutOfBoundsException`.
+  </div>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <h2 style="color: #4CAF50; border-bottom: 3px solid #e8f5e9; padding-bottom: 10px; margin-top: 40px; font-weight: 700; font-size: 2.0em;">
+      2. Collection Framework (Ví dụ: ArrayList)
+  </h2>
+  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
+      <p>Collection là một tập hợp các interface và class giúp quản lý dữ liệu linh hoạt hơn. **`ArrayList`** là class thường dùng nhất, nó cung cấp một mảng động (Dynamic Array) với khả năng **tự động mở rộng kích thước** khi cần.</p>
+<pre><code>  &lt;h3 style=&quot;color: #333; font-weight: 600; font-size: 1.5em; margin-top: 30px;&quot;&gt;
+      Thao tác cơ bản với ArrayList
+  &lt;/h3&gt;
+</code></pre>
+  </div>
+<pre style="background-color: #282c34; color: #abb2bf; padding: 1.5em; border-radius: 8px; overflow-x: auto; font-size: 1.1em; line-height: 1.6;">
+<code class="language-java">
+import java.util.ArrayList;
+
+ArrayList<String> fruits = new ArrayList<>();
+fruits.add("Táo");          // Thêm phần tử
+fruits.add("Cam");
+fruits.add("Xoài");
+
+// Lấy kích thước hiện tại
+System.out.println("Kích thước: " + fruits.size()); // Output: 3
+
+// Thêm phần tử vào vị trí cụ thể (tự động dời các phần tử khác)
+fruits.add(1, "Quýt");
+
+// Xóa phần tử
+fruits.remove("Táo");
+
+// Lấy phần tử theo index
+String cam = fruits.get(1); // Lấy Cam
+
+System.out.println(fruits);
+</code>
+</pre>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <h2 style="color: #ff9800; border-bottom: 3px solid #fff3e0; padding-bottom: 10px; margin-top: 40px; font-weight: 700; font-size: 2.0em;">
+      3. So sánh nhanh và Trải nghiệm học
+  </h2>
+  <p style="font-size: 1.3em; font-weight: 600; margin-top: 25px;">So sánh Mảng và ArrayList:</p>
+  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px; overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left;">
+          <thead>
+              <tr style="background-color: #f2f2f2;">
+                  <th style="padding: 10px; border: 1px solid #ddd;">Tiêu chí</th>
+                  <th style="padding: 10px; border: 1px solid #ddd; color: #007bff;">Mảng (Array)</th>
+                  <th style="padding: 10px; border: 1px solid #ddd; color: #4CAF50;">Collection (ArrayList)</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td style="padding: 10px; border: 1px solid #ddd; font-weight: 600;">Kích thước</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Cố định, không thể thay đổi.</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Linh hoạt, tự động mở rộng.</td>
+              </tr>
+              <tr>
+                  <td style="padding: 10px; border: 1px solid #ddd; font-weight: 600;">Kiểu dữ liệu</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Chứa cả Primitive và Reference.</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Chỉ chứa Object (Reference Types).</td>
+              </tr>
+              <tr>
+                  <td style="padding: 10px; border: 1px solid #ddd; font-weight: 600;">Tốc độ</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Truy cập nhanh hơn (vì kích thước cố định).</td>
+                  <td style="padding: 10px; border: 1px solid #ddd;">Thêm/Xóa nhanh hơn ở cuối, nhưng truy cập chậm hơn.</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  <h3 style="color: #333; font-weight: 600; font-size: 1.5em; margin-top: 30px;">
+      Trải nghiệm học của mình 🎓
+  </h3>
+  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
+      <ul style="list-style-type: disc; padding-left: 20px;">
+          <li>**Thực hành thêm xóa/sắp xếp:** Đây là cách duy nhất để hiểu được sự khác biệt về hiệu suất khi thao tác với Mảng và `ArrayList`.</li>
+          <li>**Vẽ sơ đồ Feynman:** Sử dụng hình ảnh **Mảng = Ngăn hộp** (khóa chặt kích thước) và **ArrayList = Tủ đồ mở rộng** giúp mình dễ dàng hình dung khi nào nên sử dụng loại nào.</li>
+      </ul>
+  </div>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <h2 style="color: #e91e63; border-bottom: 3px solid #fce4ec; padding-bottom: 10px; margin-top: 40px; font-weight: 700; font-size: 2.0em;">
+      4. Kết luận
+  </h2>
+  <p style="font-size: 1.3em; line-height: 1.8; margin-bottom: 30px; font-weight: 600;">
+      Mảng & Collection là công cụ lưu trữ dữ liệu cơ bản và nâng cao, không thể thiếu trong bất kỳ chương trình Java nào. Hãy chọn đúng công cụ: dùng Mảng khi biết trước kích thước, dùng Collection khi cần sự linh hoạt.
+  </p>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:20px; font-size:1.2em; margin-bottom: 40px;">
+      🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
+      <p style="margin-top: 10px;"><em>— Đăng Nguyễn Hải</em></p>
+  </div>
 </div><ul class="pa0">
   
    <li class="list di">
@@ -266,7 +366,7 @@
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/dangcode-blog/blog/java/10/19-java-io/">Java Input/Output (I/O)</a>
+          <a href="/dangcode-blog/blog/java/10/19-java-io/">Java Input/Output (I/O): Làm việc với Console và File</a>
         </li>
 	    
 	     <li  class="mb2">

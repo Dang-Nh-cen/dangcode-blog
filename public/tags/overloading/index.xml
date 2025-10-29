@@ -13,7 +13,7 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/07/16-java-functions/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/07/16-java-functions/</guid>
-      <description>&lt;p&gt;Hàm giúp &lt;strong&gt;tổ chức và tái sử dụng code&lt;/strong&gt;. Overloading và Parameter Passing làm code linh hoạt hơn.&lt;/p&gt;</description>
+      <description>Trong lập trình Java, &lt;strong&gt;Hàm (Method)&lt;/strong&gt; là công cụ cốt lõi giúp bạn &lt;strong&gt;tổ chức code thành các khối nhỏ logic, dễ quản lý và tái sử dụng&lt;/strong&gt;. Cùng với &lt;strong&gt;Overloading&lt;/strong&gt; và &lt;strong&gt;Parameter Passing&lt;/strong&gt;, hàm giúp code của chúng ta trở nên mạnh mẽ và linh hoạt hơn rất nhiều.</description>
     </item>
   </channel>
 </rss>

@@ -6,28 +6,29 @@ tags: ["Java","IfElse","Điều kiện","Feynman"]
 featured_image: "/images/if_else.jpeg"
 draft: false
 weight: 5
+summary: "Trong lập trình, câu lệnh điều kiện là công cụ giúp chương trình Java ra quyết định dựa trên các tình huống khác nhau. Đây là một trong những khái niệm cơ bản nhưng mạnh mẽ nhất."
 ---
 
 <div style="max-width: 950px; margin: 0 auto; padding: 0 10px;">
     
-  <p style="font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;">
-      Trong lập trình, **câu lệnh điều kiện** là công cụ giúp chương trình Java **ra quyết định** dựa trên các tình huống khác nhau. Đây là một trong những khái niệm cơ bản nhưng mạnh mẽ nhất. Mình học bằng phương pháp Feynman: **“Điều kiện = ngã rẽ đường”**. Bài viết này sẽ giúp bạn nắm vững câu lệnh `if/else` trong Java.
-  </p>
+<p style="font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;">
+        Trong lập trình, **câu lệnh điều kiện** là công cụ giúp chương trình Java **ra quyết định** dựa trên các tình huống khác nhau. Đây là một trong những khái niệm cơ bản nhưng mạnh mẽ nhất. Mình học bằng phương pháp Feynman: **“Điều kiện = ngã rẽ đường”**. Bài viết này sẽ giúp bạn nắm vững câu lệnh `if/else` trong Java.
+    </p>
 
-  <div style="text-align: center; margin-bottom: 40px;">
-      <img src="/dangcode-blog/images/if_else.png" alt="Java IfElse" style="max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);">
-  </div>
+<div style="text-align: center; margin-bottom: 40px;">
+    <img src="/dangcode-blog/images/if_else.png" alt="Java IfElse" style="max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);">
+</div>
 
-  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+<hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
 
-  <h2 style="color: #007bff; border-bottom: 3px solid #e0f7fa; padding-bottom: 10px; margin-top: 50px; font-weight: 700; font-size: 2.0em;">
-      1. Cấu trúc if và if-else cơ bản
-  </h2>
-  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
-      <p>Câu lệnh `if` kiểm tra một điều kiện logic. Nếu điều kiện đó là `true`, khối lệnh bên trong `if` sẽ được thực thi. Ngược lại, khối lệnh trong `else` (nếu có) sẽ được thực thi.</p>
-      
-      <p style="font-size: 1.3em; font-weight: 600; margin-top: 25px;">Ví dụ đơn giản: Kiểm tra Đậu/Rớt</p>
-  </div>
+<h2 style="color: #007bff; border-bottom: 3px solid #e0f7fa; padding-bottom: 10px; margin-top: 50px; font-weight: 700; font-size: 2.0em;">
+    1. Cấu trúc if và if-else cơ bản
+</h2>
+<div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
+    <p>Câu lệnh `if` kiểm tra một điều kiện logic. Nếu điều kiện đó là `true`, khối lệnh bên trong `if` sẽ được thực thi. Ngược lại, khối lệnh trong `else` (nếu có) sẽ được thực thi.</p>
+    
+<p style="font-size: 1.3em; font-weight: 600; margin-top: 25px;">Ví dụ đơn giản: Kiểm tra Đậu/Rớt</p>
+</div>
 
 <pre style="background-color: #282c34; color: #abb2bf; padding: 1.5em; border-radius: 8px; overflow-x: auto; font-size: 1.1em; line-height: 1.6;">
 <code class="language-java">

@@ -6,8 +6,7 @@
     
     <title>Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism | Blog DangnoHat</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Java là ngôn ngữ hướng đối tượng (OOP). Class, Inheritance, Polymorphism là nền tảng.
-Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.">
+    <meta name="description" content="Java là ngôn ngữ hướng đối tượng (OOP) thuần túy. Nắm vững các trụ cột của OOP như Class, Object, Inheritance (Kế thừa), và Polymorphism (Đa hình) là chìa khóa để xây dựng các ứng dụng lớn, có cấu trúc và dễ bảo trì.">
     <meta name="generator" content="Hugo 0.151.2">
     
     
@@ -44,8 +43,7 @@ Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm
     <meta property="og:url" content="http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/">
   <meta property="og:site_name" content="Blog DangnoHat">
   <meta property="og:title" content="Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism">
-  <meta property="og:description" content="Java là ngôn ngữ hướng đối tượng (OOP). Class, Inheritance, Polymorphism là nền tảng.
-Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.">
+  <meta property="og:description" content="Java là ngôn ngữ hướng đối tượng (OOP) thuần túy. Nắm vững các trụ cột của OOP như Class, Object, Inheritance (Kế thừa), và Polymorphism (Đa hình) là chìa khóa để xây dựng các ứng dụng lớn, có cấu trúc và dễ bảo trì.">
   <meta property="og:locale" content="vi">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -59,16 +57,14 @@ Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm
     <meta property="article:tag" content="Feynman">
 
   <meta itemprop="name" content="Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism">
-  <meta itemprop="description" content="Java là ngôn ngữ hướng đối tượng (OOP). Class, Inheritance, Polymorphism là nền tảng.
-Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.">
+  <meta itemprop="description" content="Java là ngôn ngữ hướng đối tượng (OOP) thuần túy. Nắm vững các trụ cột của OOP như Class, Object, Inheritance (Kế thừa), và Polymorphism (Đa hình) là chìa khóa để xây dựng các ứng dụng lớn, có cấu trúc và dễ bảo trì.">
   <meta itemprop="datePublished" content="2025-10-20T09:00:00+07:00">
   <meta itemprop="dateModified" content="2025-10-20T09:00:00+07:00">
-  <meta itemprop="wordCount" content="168">
+  <meta itemprop="wordCount" content="652">
   <meta itemprop="keywords" content="Java,OOP,Class,Inheritance,Polymorphism,Feynman">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism">
-  <meta name="twitter:description" content="Java là ngôn ngữ hướng đối tượng (OOP). Class, Inheritance, Polymorphism là nền tảng.
-Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.">
+  <meta name="twitter:description" content="Java là ngôn ngữ hướng đối tượng (OOP) thuần túy. Nắm vững các trụ cột của OOP như Class, Object, Inheritance (Kế thừa), và Polymorphism (Đa hình) là chìa khóa để xây dựng các ứng dụng lớn, có cấu trúc và dễ bảo trì.">
 
 	
 
@@ -184,42 +180,120 @@ Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Java là ngôn ngữ <strong>hướng đối tượng (OOP)</strong>. Class, Inheritance, Polymorphism là nền tảng.<br>
-Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.</p>
-<p><img src="/dangcode-blog/images/oop.jpg" alt="Java OOP"></p>
-<h2 id="1-class-và-object">1. Class và Object</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
-</span></span><span style="display:flex;"><span>  String name;
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sound</span>(){ System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Some sound&#34;</span>); }
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Animal dog <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Animal();
-</span></span><span style="display:flex;"><span>dog.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Dog&#34;</span>;
-</span></span><span style="display:flex;"><span>dog.<span style="color:#a6e22e">sound</span>();
-</span></span></code></pre></div><h2 id="2-inheritance">2. Inheritance</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Dog</span> <span style="color:#66d9ef">extends</span> Animal {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sound</span>(){ System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Woof&#34;</span>); }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="3-polymorphism">3. Polymorphism</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Animal a <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Dog();
-</span></span><span style="display:flex;"><span>a.<span style="color:#a6e22e">sound</span>(); <span style="color:#75715e">// Woof</span>
-</span></span></code></pre></div><h2 id="4-trải-nghiệm-học">4. Trải nghiệm học</h2>
-<ul>
-<li>
-<p>Vẽ sơ đồ OOP → dễ hiểu mối quan hệ Class/Object</p>
-</li>
-<li>
-<p>Thực hành nhiều ví dụ Polymorphism → ghi nhớ nhanh</p>
-</li>
-</ul>
-<h2 id="5-kết-luận">5. Kết luận</h2>
-<ul>
-<li>OOP giúp tổ chức code lớn dễ dàng và linh hoạt</li>
-</ul>
-<hr>
-<div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;">
-🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
-<br><em>— Đăng Nguyễn Hải</em>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><div style="max-width: 950px; margin: 0 auto; padding: 0 10px;">
+  <p style="font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;">
+      Java là ngôn ngữ **hướng đối tượng (OOP) thuần túy**. Nắm vững các trụ cột của OOP như **Class, Object, Inheritance (Kế thừa), và Polymorphism (Đa hình)** là chìa khóa để xây dựng các ứng dụng lớn, có cấu trúc và dễ bảo trì.
+  </p>
+  <div style="padding: 15px; border-left: 5px solid #ff9800; background-color: #fff8e1; margin: 30px 0; font-size: 1.25em;">
+      Mình học bằng phương pháp Feynman: 
+      > **“Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.**
+  </div>
+  <div style="text-align: center; margin-bottom: 40px;">
+      <img src="/dangcode-blog/images/oop.jpg" alt="Java OOP" style="max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);">
+  </div>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <h2 style="color: #007bff; border-bottom: 3px solid #e0f7fa; padding-bottom: 10px; margin-top: 50px; font-weight: 700; font-size: 2.0em;">
+      1. Class (Lớp) và Object (Đối tượng)
+  </h2>
+  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
+      <p>
+          **Class** là bản thiết kế (blueprint) hoặc khuôn mẫu để tạo ra các đối tượng. Nó định nghĩa các **thuộc tính (variables)** và **hành vi (methods)** chung cho nhóm đối tượng đó.
+      </p>
+      <p>
+          **Object** là thể hiện cụ thể (instance) của một Class. Nó là sản phẩm thực tế được tạo ra từ bản thiết kế đó.
+      </p>
+  </div>
+  <p style="font-size: 1.3em; font-weight: 600; margin-top: 25px;">Ví dụ: Class Animal và Object dog</p>
+<pre style="background-color: #282c34; color: #abb2bf; padding: 1.5em; border-radius: 8px; overflow-x: auto; font-size: 1.1em; line-height: 1.6;">
+<code class="language-java">
+// 1. Bản thiết kế (Class)
+class Animal {
+  String name; // Thuộc tính (dữ liệu)
+<p>void sound(){ // Hành vi (hàm)
+System.out.println(&ldquo;Some general sound&rdquo;);
+}
+}</p>
+<p>// 2. Sản phẩm thực tế (Object)
+Animal dog = new Animal(); // Tạo Object
+dog.name = &ldquo;Husky&rdquo;;       // Truy cập thuộc tính
+dog.sound();              // Gọi hành vi (Output: Some general sound)
+</code>
+</pre></p>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <h2 style="color: #4CAF50; border-bottom: 3px solid #e8f5e9; padding-bottom: 10px; margin-top: 40px; font-weight: 700; font-size: 2.0em;">
+      2. Inheritance (Tính Kế thừa)
+  </h2>
+  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
+      <p>
+          Kế thừa cho phép một Class (Class con/Subclass) **thừa hưởng** các thuộc tính và phương thức của một Class khác (Class cha/Superclass). Điều này giúp **tái sử dụng code** và tạo ra mối quan hệ *is-a* (là một) giữa các Class.
+      </p>
+      <p style="font-weight: 600;">Từ khóa: Java sử dụng từ khóa **`extends`** để thực hiện kế thừa.</p>
+  </div>
+  <p style="font-size: 1.3em; font-weight: 600; margin-top: 25px;">Ví dụ: Dog kế thừa từ Animal</p>
+<pre style="background-color: #282c34; color: #abb2bf; padding: 1.5em; border-radius: 8px; overflow-x: auto; font-size: 1.1em; line-height: 1.6;">
+<code class="language-java">
+class Dog extends Animal {
+    // Dog tự động thừa kế thuộc tính 'name' và hàm 'sound()' từ Animal
+<pre><code>// Ghi đè (Override) hàm sound() của Class cha
+@Override
+void sound(){ 
+    System.out.println(&quot;Woof Woof!&quot;); 
+}
+
+void fetch() { 
+    System.out.println(&quot;Dog is fetching the ball.&quot;); 
+}
+</code></pre>
+<p>}</p>
+<p>// Sử dụng:
+Dog myDog = new Dog();
+myDog.name = &ldquo;Pug&rdquo;; // Thừa kế thuộc tính
+myDog.sound();     // Output: Woof Woof! (Vì đã bị ghi đè)
+</code>
+</pre></p>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <h2 style="color: #e91e63; border-bottom: 3px solid #fce4ec; padding-bottom: 10px; margin-top: 40px; font-weight: 700; font-size: 2.0em;">
+      3. Polymorphism (Tính Đa hình)
+  </h2>
+  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
+      <p>
+          Polymorphism (Đa hình) nghĩa đen là **"nhiều hình thái"**. Trong Java, nó cho phép một đối tượng có thể được tham chiếu bởi nhiều kiểu khác nhau (kiểu Class cha hoặc Interface mà nó triển khai).
+      </p>
+      <p>
+          **Đa hình Runtime** (thường xảy ra với Ghi đè - Overriding) là dạng quan trọng nhất. Nó cho phép chương trình gọi đúng phương thức của Class con tại thời điểm chạy, ngay cả khi tham chiếu đang ở kiểu Class cha.
+      </p>
+  </div>
+  <p style="font-size: 1.3em; font-weight: 600; margin-top: 25px;">Ví dụ: Đa hình Runtime</p>
+<pre style="background-color: #282c34; color: #abb2bf; padding: 1.5em; border-radius: 8px; overflow-x: auto; font-size: 1.1em; line-height: 1.6;">
+<code class="language-java">
+// Tham chiếu 'a' có kiểu là Animal, nhưng Object thực tế là Dog.
+Animal a = new Dog(); 
+Animal b = new Animal();
+<p>// Khi gọi hàm sound(), JVM biết phải gọi hàm sound() đã được ghi đè của Dog
+a.sound(); // Output: Woof Woof! (Hành vi của Class con)</p>
+<p>// Khi gọi hàm sound() của b, nó gọi hàm của Animal
+b.sound(); // Output: Some general sound</p>
+<p>// =&gt; Một tham chiếu (Animal) có thể có nhiều hình thái (Dog, Cat,&hellip;)
+</code>
+</pre></p>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <h2 style="color: #ff9800; border-bottom: 3px solid #fff3e0; padding-bottom: 10px; margin-top: 40px; font-weight: 700; font-size: 2.0em;">
+      4. Trải nghiệm học & Kết luận
+  </h2>
+  <div style="font-size: 1.25em; line-height: 1.8; margin-bottom: 30px;">
+      <ul style="list-style-type: none; padding-left: 0;">
+          <li style="margin-bottom: 15px;"><span style="font-weight: 600; color: #ff9800;">🧠 Vẽ sơ đồ OOP:</span> Luôn vẽ sơ đồ mối quan hệ giữa Class cha và Class con (mô hình cây gia phả) để dễ hiểu mối quan hệ **Inheritance**.</li>
+          <li style="margin-bottom: 15px;"><span style="font-weight: 600; color: #ff9800;">✅ Thực hành Polymorphism:</span> Viết một hàm nhận tham số kiểu Class cha (`Animal`) nhưng truyền vào các Object Class con (`Dog`, `Cat`). Điều này giúp bạn ghi nhớ nhanh nguyên tắc Đa hình.</li>
+      </ul>
+  </div>
+  <p style="font-size: 1.3em; line-height: 1.8; margin-bottom: 30px; font-weight: 600;">
+      OOP giúp tổ chức code lớn dễ dàng, tạo tính tái sử dụng cao, và giúp chương trình của bạn linh hoạt, dễ mở rộng hơn trong tương lai.
+  </p>
+  <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
+  <div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:20px; font-size:1.2em; margin-bottom: 40px;">
+      🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
+      <p style="margin-top: 10px;"><em>— Đăng Nguyễn Hải</em></p>
+  </div>
 </div><ul class="pa0">
   
    <li class="list di">
@@ -275,7 +349,7 @@ Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/dangcode-blog/blog/java/10/19-java-io/">Java Input/Output (I/O)</a>
+          <a href="/dangcode-blog/blog/java/10/19-java-io/">Java Input/Output (I/O): Làm việc với Console và File</a>
         </li>
 	    
 	     <li  class="mb2">

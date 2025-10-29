@@ -41,56 +41,56 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/04/13-java-ifelse/</guid>
-      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;  &lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      Trong lập trình, **câu lệnh điều kiện** là công cụ giúp chương trình Java **ra quyết định** dựa trên các tình huống khác nhau. Đây là một trong những khái niệm cơ bản nhưng mạnh mẽ nhất. Mình học bằng phương pháp Feynman: **“Điều kiện = ngã rẽ đường”**. Bài viết này sẽ giúp bạn nắm vững câu lệnh `if/else` trong Java.&#xA;  &lt;/p&gt;</description>
+      <description>Trong lập trình, câu lệnh điều kiện là công cụ giúp chương trình Java ra quyết định dựa trên các tình huống khác nhau. Đây là một trong những khái niệm cơ bản nhưng mạnh mẽ nhất.</description>
     </item>
     <item>
       <title>Vòng lặp trong Java: for, while, do-while</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/05/14-java-loops/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/05/14-java-loops/</guid>
-      <description>&lt;p&gt;Vòng lặp giúp &lt;strong&gt;làm việc lặp đi lặp lại&lt;/strong&gt; mà không viết lại code. Mình học bằng Feynman: “Vòng lặp = robot làm nhiệm vụ nhiều lần”.&lt;/p&gt;</description>
+      <description>Vòng lặp (Loops) là tính năng cốt lõi, giúp chương trình của bạn thực hiện một hành động lặp đi lặp lại nhiều lần mà không cần viết lại cùng một đoạn mã. Nó giống như một con robot làm việc lặp lại.</description>
     </item>
     <item>
       <title>Mảng và Collection trong Java</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/06/15-java-array-collection/</guid>
-      <description>&lt;p&gt;Mảng và Collection giúp &lt;strong&gt;lưu trữ nhiều giá trị cùng lúc&lt;/strong&gt;. Mình học bằng Feynman: “Mảng = hộp nhiều ngăn, Collection = tủ đồ linh hoạt”.&lt;/p&gt;</description>
+      <description>Mảng (Array) và Collection là hai công cụ chính giúp bạn &lt;strong&gt;lưu trữ và quản lý nhiều giá trị cùng lúc&lt;/strong&gt; trong Java. Nắm vững hai khái niệm này là chìa khóa để xử lý dữ liệu quy mô lớn hơn một biến đơn lẻ. Mình học bằng phương pháp Feynman.</description>
     </item>
     <item>
       <title>Hàm, Overloading và Parameter Passing trong Java</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/07/16-java-functions/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/07/16-java-functions/</guid>
-      <description>&lt;p&gt;Hàm giúp &lt;strong&gt;tổ chức và tái sử dụng code&lt;/strong&gt;. Overloading và Parameter Passing làm code linh hoạt hơn.&lt;/p&gt;</description>
+      <description>Trong lập trình Java, &lt;strong&gt;Hàm (Method)&lt;/strong&gt; là công cụ cốt lõi giúp bạn &lt;strong&gt;tổ chức code thành các khối nhỏ logic, dễ quản lý và tái sử dụng&lt;/strong&gt;. Cùng với &lt;strong&gt;Overloading&lt;/strong&gt; và &lt;strong&gt;Parameter Passing&lt;/strong&gt;, hàm giúp code của chúng ta trở nên mạnh mẽ và linh hoạt hơn rất nhiều.</description>
     </item>
     <item>
       <title>Lập trình hướng đối tượng nâng cao: Class, Inheritance, Polymorphism</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/08/17-java-oop/</guid>
-      <description>&lt;p&gt;Java là ngôn ngữ &lt;strong&gt;hướng đối tượng (OOP)&lt;/strong&gt;. Class, Inheritance, Polymorphism là nền tảng.&lt;br&gt;&#xA;Mình học bằng Feynman: “Class = bản thiết kế, Object = sản phẩm, Inheritance = thừa kế bản thiết kế, Polymorphism = nhiều hình thái sản phẩm”.&lt;/p&gt;</description>
+      <description>Java là ngôn ngữ &lt;strong&gt;hướng đối tượng (OOP) thuần túy&lt;/strong&gt;. Nắm vững các trụ cột của OOP như &lt;strong&gt;Class, Object, Inheritance (Kế thừa), và Polymorphism (Đa hình)&lt;/strong&gt; là chìa khóa để xây dựng các ứng dụng lớn, có cấu trúc và dễ bảo trì.</description>
     </item>
     <item>
       <title>Exception Handling trong Java</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/09/18-java-exception/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/09/18-java-exception/</guid>
-      <description>&lt;p&gt;Exception giúp &lt;strong&gt;bắt lỗi và duy trì chương trình chạy ổn định&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>Trong lập trình Java, &lt;strong&gt;Xử lý ngoại lệ (Exception Handling)&lt;/strong&gt; là kỹ thuật cốt lõi giúp bạn &lt;strong&gt;bắt lỗi và duy trì chương trình chạy ổn định&lt;/strong&gt; ngay cả khi có sự cố xảy ra. Thay vì bị dừng đột ngột, chương trình có thể cứu hộ và tiếp tục công việc.</description>
     </item>
     <item>
-      <title>Java Input/Output (I/O)</title>
+      <title>Java Input/Output (I/O): Làm việc với Console và File</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/10/19-java-io/</guid>
-      <description>&lt;p&gt;Java I/O giúp &lt;strong&gt;đọc/ghi dữ liệu từ file hoặc console&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>Java I/O (Input/Output) là hệ thống giúp chương trình của bạn &lt;strong&gt;đọc/ghi dữ liệu từ các nguồn bên ngoài&lt;/strong&gt; như file, console, hoặc kết nối mạng. Đây là khả năng giao tiếp cơ bản nhất của mọi ứng dụng.</description>
     </item>
     <item>
       <title>Tổng kết lý thuyết và cảm nhận cá nhân khi học Java</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/java_summary/</link>
       <pubDate>Wed, 22 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/java_summary/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://cdn.pixabay.com/photo/2017/05/10/16/06/java-2306154_1280.png&#34; alt=&#34;Java Language&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;-tổng-kết-lý-thuyết-về-java&#34;&gt;🧠 Tổng kết lý thuyết về Java&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-giới-thiệu-về-java&#34;&gt;1. Giới thiệu về Java&lt;/h3&gt;&#xA;&lt;p&gt;Java là &lt;strong&gt;ngôn ngữ lập trình hướng đối tượng, đa nền tảng&lt;/strong&gt;, được phát triển bởi Sun Microsystems (nay thuộc Oracle).&lt;br&gt;&#xA;Với khẩu hiệu &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt;, Java có thể chạy trên nhiều hệ điều hành nhờ &lt;strong&gt;JVM (Java Virtual Machine)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Đặc điểm nổi bật:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Đa nền tảng (Cross-platform)&lt;/li&gt;&#xA;&lt;li&gt;Hướng đối tượng (OOP)&lt;/li&gt;&#xA;&lt;li&gt;Bảo mật, ổn định cao&lt;/li&gt;&#xA;&lt;li&gt;Thư viện phong phú (Java API)&lt;/li&gt;&#xA;&lt;li&gt;Quản lý bộ nhớ tự động (Garbage Collector)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;2-cấu-trúc-cơ-bản-của-chương-trình-java&#34;&gt;2. Cấu trúc cơ bản của chương trình Java&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Main&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello Java!&amp;#34;&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;---&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;div style&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:15px; font-size:1.1em;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;🎯&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;strong&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ&lt;span style=&#34;color:#f92672&#34;&gt;!&amp;lt;/&lt;/span&gt;strong&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;🚀&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;br&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;em&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;—&lt;/span&gt; Đăng Nguyễn Hải&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;em&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/&lt;/span&gt;div&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;  &lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      Sau hành trình khám phá các khái niệm cơ bản của Java, từ Biến, Vòng lặp cho đến OOP và Exception Handling, đây là lúc chúng ta cùng nhau **tổng kết lại** những kiến thức cốt lõi. Bài viết này không chỉ là bản đồ tóm tắt kiến thức mà còn là nơi mình chia sẻ **những trải nghiệm cá nhân, những thách thức đã vượt qua** khi chinh phục ngôn ngữ đầy mạnh mẽ này.&#xA;  &lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript – Ngôn ngữ của Web hiện đại</title>
