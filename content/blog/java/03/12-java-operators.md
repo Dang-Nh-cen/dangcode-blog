@@ -6,6 +6,7 @@ tags: ["Java","Toán tử","Biểu thức","Feynman"]
 featured_image: "/images/toantu.png"
 draft: false
 weight: 4
+summary: "Toán tử (Operators) là **công cụ xử lý dữ liệu** cơ bản nhất trong lập trình. Chúng cho phép chúng ta thực hiện các phép tính, so sánh giá trị, và kết hợp các điều kiện."
 ---
 
 <div style="max-width: 950px; margin: 0 auto; padding: 0 10px;">

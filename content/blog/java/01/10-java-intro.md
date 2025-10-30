@@ -6,6 +6,7 @@ tags: ["Java","Lịch sử Java","Ngôn ngữ lập trình"]
 featured_image: "/images/java_cover.webp"
 draft: false
 weight: 2
+summary: "Java là một trong những **ngôn ngữ lập trình phổ biến và mạnh mẽ nhất** trên thế giới."
 ---
 
 <div style="max-width: 950px; margin: 0 auto; padding: 0 10px;">

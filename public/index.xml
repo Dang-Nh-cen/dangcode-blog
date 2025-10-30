@@ -20,21 +20,21 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/01/10-java-intro/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/01/10-java-intro/</guid>
-      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;   &lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;        Java là một trong những **ngôn ngữ lập trình phổ biến và mạnh mẽ nhất** trên thế giới. Nó không chỉ là nền tảng của nhiều ứng dụng lớn mà còn là khởi đầu vững chắc cho bất kỳ ai muốn theo đuổi lập trình chuyên nghiệp. Trong bài viết này, mình sẽ giới thiệu về **lịch sử ra đời, đặc điểm nổi bật** làm nên sức mạnh của Java, và **ứng dụng thực tế** của nó.&#xA;    &lt;/p&gt;</description>
+      <description>Java là một trong những &lt;strong&gt;ngôn ngữ lập trình phổ biến và mạnh mẽ nhất&lt;/strong&gt; trên thế giới.</description>
     </item>
     <item>
       <title>Java cơ bản: Biến, kiểu dữ liệu và hằng số</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/02/11-java-basics/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/02/11-java-basics/</guid>
-      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;&lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;        Java là ngôn ngữ **có kiểu dữ liệu tĩnh (statically typed)**, nghĩa là bạn phải khai báo rõ ràng kiểu dữ liệu cho mỗi biến trước khi sử dụng. Đây là nền tảng đầu tiên mà mọi lập trình viên Java cần nắm vững. Trong bài viết này, mình sẽ cùng nhau khám phá **biến (variables), kiểu dữ liệu (data types) và hằng số (constants)** trong Java bằng cách giải thích theo phương pháp Feynman!&#xA;            &lt;/p&gt;</description>
+      <description>Java là ngôn ngữ &lt;strong&gt;có kiểu dữ liệu tĩnh (statically typed)&lt;/strong&gt;, nghĩa là bạn phải khai báo rõ ràng kiểu dữ liệu cho mỗi biến trước khi sử dụng.</description>
     </item>
     <item>
       <title>Toán tử và biểu thức trong Java</title>
       <link>http://localhost:1313/dangcode-blog/blog/java/03/12-java-operators/</link>
       <pubDate>Mon, 20 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/03/12-java-operators/</guid>
-      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;&lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;    Toán tử (Operators) là **công cụ xử lý dữ liệu** cơ bản nhất trong lập trình. Chúng cho phép chúng ta thực hiện các phép tính, so sánh giá trị, và kết hợp các điều kiện. Mình học bằng cách giải thích theo Feynman: **“Toán tử = công cụ biến đổi dữ liệu”**. Bài viết này sẽ giúp bạn nắm vững các loại toán tử quan trọng nhất trong Java.&#xA;&lt;/p&gt;</description>
+      <description>Toán tử (Operators) là &lt;strong&gt;công cụ xử lý dữ liệu&lt;/strong&gt; cơ bản nhất trong lập trình. Chúng cho phép chúng ta thực hiện các phép tính, so sánh giá trị, và kết hợp các điều kiện.</description>
     </item>
     <item>
       <title>Câu lệnh điều kiện if/else trong Java</title>
@@ -90,7 +90,7 @@
       <link>http://localhost:1313/dangcode-blog/blog/java/java_summary/</link>
       <pubDate>Wed, 22 Oct 2025 09:00:00 +0700</pubDate>
       <guid>http://localhost:1313/dangcode-blog/blog/java/java_summary/</guid>
-      <description>&lt;div style=&#34;max-width: 950px; margin: 0 auto; padding: 0 10px;&#34;&gt;&#xA;  &lt;p style=&#34;font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;&#34;&gt;&#xA;      Sau hành trình khám phá các khái niệm cơ bản của Java, từ Biến, Vòng lặp cho đến OOP và Exception Handling, đây là lúc chúng ta cùng nhau **tổng kết lại** những kiến thức cốt lõi. Bài viết này không chỉ là bản đồ tóm tắt kiến thức mà còn là nơi mình chia sẻ **những trải nghiệm cá nhân, những thách thức đã vượt qua** khi chinh phục ngôn ngữ đầy mạnh mẽ này.&#xA;  &lt;/p&gt;</description>
+      <description>Cảm nhận cá nhân.</description>
     </item>
     <item>
       <title>JavaScript – Ngôn ngữ của Web hiện đại</title>

@@ -6,6 +6,7 @@ tags: ["Java","Cơ bản","Biến","Kiểu dữ liệu"]
 featured_image: "/images/java_11.png"
 draft: false
 weight: 3
+summary: "Java là ngôn ngữ **có kiểu dữ liệu tĩnh (statically typed)**, nghĩa là bạn phải khai báo rõ ràng kiểu dữ liệu cho mỗi biến trước khi sử dụng."
 ---
 
 <div style="max-width: 950px; margin: 0 auto; padding: 0 10px;">

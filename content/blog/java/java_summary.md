@@ -6,6 +6,7 @@ tags: ["Java", "Tổng kết", "Lập trình hướng đối tượng"]
 featured_image: "/images/trainhiem.jpg"
 draft: false
 weight: 12
+summary: "Cảm nhận cá nhân."
 ---
 
 <div style="max-width: 950px; margin: 0 auto; padding: 0 10px;">
