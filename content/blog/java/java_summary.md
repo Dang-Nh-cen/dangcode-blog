@@ -100,6 +100,8 @@ weight: 12
       Java không chỉ là ngôn ngữ lập trình, mà là **một phương pháp tư duy**. Nếu bạn đã đi đến đây, hãy tự hào về khả năng **kỷ luật, logic và kiên trì** của mình. Nền tảng này sẽ giúp bạn dễ dàng học thêm bất kỳ ngôn ngữ nào khác trong tương lai, từ C# đến Python, vì bạn đã nắm được những nguyên lý cốt lõi của khoa học máy tính.
   </p>
 
+
+
   <div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:20px; font-size:1.3em; margin-bottom: 40px;">
       🎯 <strong>Chúc những ai đang đọc blog này luôn giữ được niềm đam mê học hỏi, kiên trì và sớm trở thành những lập trình viên Java vững vàng, tự tin bước vào thế giới công nghệ!</strong> 🚀  
       <p style="margin-top: 10px;"><em>— Đăng Nguyễn Hải</em></p>

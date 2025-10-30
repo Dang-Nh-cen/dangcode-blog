@@ -127,6 +127,14 @@ public static void modifyObject(MyObject obj) {
       Hàm và Overloading giúp tổ chức code hiệu quả, còn việc hiểu Parameter Passing là nền tảng để tránh các lỗi logic phức tạp trong các dự án lớn.
   </p>
 
+
+<h2 style="color: #4CAF50; border-bottom: 3px solid #4CAF50; padding-bottom: 10px; margin-top: 40px; font-weight: 800; font-size: 2.2em; text-align: center;">
+    🛠️ Test Code Với Java
+</h2>
+
+Hãy bắt đầu với đoạn mã đầu tiên của bạn
+
+    {{< java_code_button src="https://517438ca-0c49-467b-b6f4-22a68a0abaa4-00-1k8m3q9oydb9e.kirk.replit.dev/" height="480px" >}}
   <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
 
   <div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:20px; font-size:1.2em; margin-bottom: 40px;">

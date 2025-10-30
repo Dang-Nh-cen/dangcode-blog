@@ -160,6 +160,7 @@ class Dog extends Animal {
         <li>Áp dụng **Feynman + thực hành liên tục** là chìa khóa để ghi nhớ và hiểu sâu kiến thức Java, từ đó tự tin chinh phục các dự án lớn.</li>
     </ul>
 
+
    <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
 
    <div style="text-align:center; background:#f0f8ff; border-left:5px solid #007acc; border-radius:10px; padding:20px; font-size:1.2em; margin-bottom: 40px;">
