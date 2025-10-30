@@ -133,6 +133,14 @@ featured_image: "/images/anh_nen_1.jpg"
         <li><span style="font-weight: 600;">🤝 Góp phần xây dựng cộng đồng</span> học lập trình và chia sẻ kinh nghiệm thực tế trong ngành.</li>
     </ul>
 
+<h2 style="color: #ff9800; border-bottom: 3px solid #eee; padding-bottom: 10px; margin-top: 40px; font-weight: 700; font-size: 1.8em;">
+        -Dự án cá nhân
+    </h2>
+    <ul style="list-style-type: square; padding-left: 30px; line-height: 2.0; font-size: 1.25em;">
+        <li><span style="font-weight: 600;">Xây dựng mạng IPv6 và tích hợp AI để dự đoán tấn công trên mạng.</li>
+        
+</ul>
+
   <hr style="border: 0; height: 1px; background-color: #ddd; margin: 40px 0;">
 
   <div style="text-align:center; margin-bottom: 40px;">
